@@ -1,0 +1,44 @@
+Cache (CAC) (mmcblk0p4)
+  805 306 368 B
+  /cache
+  ext4
+  Read/Write
+  4 KB
+  mmcblk0p4
+  Cache
+  CAC
+  179
+  4
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
+=====
+Data (UDA) (mmcblk0p12)
+  29 284 630 528 B
+  /data
+  ext4
+  Read/Write
+  4 KB
+  mmcblk0p12
+  Data
+  UDA
+  179
+  12
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
+=====
+System (APP) (mmcblk0p3)
+  805 306 368 B
+  /system
+  ext4
+  Only read
+  4 KB
+  mmcblk0p3
+  System
+  APP
+  179
+  3
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
