@@ -1,4 +1,5 @@
-# Android-7-for-Wexler-Tab-7t-3G
-This repository for developers and other contributors who wish to provide Android 7 support to Wexler Tab 7t
+# Device Loot
 
-Этот проект находится в стадии разработки или подготовки к разработке. Если вы желаете помочь, дайте знать.
+Здесь находятся все файлы и информация, которые были вытащены с устройства и потребуются для разработки.
+
+Here is all files and info, which were received from device and needed for development.
