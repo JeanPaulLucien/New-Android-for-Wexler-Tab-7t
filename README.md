@@ -11,6 +11,10 @@ This repository for developers and other contributors who wish to provide Androi
 
 # Документация
 
+## Я ищу
+Вся информация, которая вытащена с устройства публикуется здесь: https://github.com/JeanPaulLucien/New-Android-for-Wexler-Tab-7t/tree/from-device
+Если какой-то информаций там нет, напишите в https://github.com/JeanPaulLucien/New-Android-for-Wexler-Tab-7t/issues/2
+
 ## Получение dmesg (наипростейший путь)
 * нужен root. Вероятно, что уже есть, у меня работает с https://www.kingoapp.com/
 * ставим Терминал https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=ru и ярлык делаем на виду для удобства
