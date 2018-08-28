@@ -17,7 +17,7 @@ This repository for developers and other contributors who wish to provide Androi
 * перезагружаем устройство (выкл/вкл)
 * запускаем Терминал и пишем (команда на строку)
   * su
-  * dmesg -> sdcard/Download/<filename>.txt
-    * <filename> - имя файла на англ., можете назвать dmesg, можете ololo
+  * dmesg -> sdcard/Download/filename.txt
+    * filename - имя файла на англ., можете назвать dmesg, можете ololo
   * exit - писать пока Терминал не закроется
 * dmesg лежит в папке "Загрузки", делайти с ним, что хотите. Поздравляю, вы неподражаемы! 
