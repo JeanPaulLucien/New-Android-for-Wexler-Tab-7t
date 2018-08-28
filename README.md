@@ -13,10 +13,11 @@ This repository for developers and other contributors who wish to provide Androi
 
 ## Получение dmesg (наипростейший путь)
 * нужен root. Вероятно, что уже есть, у меня работает с https://www.kingoapp.com/
-* Ставим Терминал https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=ru и ярлык делаем на виду для удобства
-* Перезагружаем устройство (выкл/вкл)
-* Запускаем Терминал и пишем (команда на строку)
+* ставим Терминал https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=ru и ярлык делаем на виду для удобства
+* перезагружаем устройство (выкл/вкл)
+* запускаем Терминал и пишем (команда на строку)
   * su
   * dmesg -> sdcard/Download/<filename>.txt
-  * <filename> - имя файла на англ., можете назвать dmesg, можете ololo
+    * <filename> - имя файла на англ., можете назвать dmesg, можете ololo
+  * exit - писать пока Терминал не закроется
 * dmesg лежит в папке "Загрузки", делайти с ним, что хотите. Поздравляю, вы неподражаемы! 
