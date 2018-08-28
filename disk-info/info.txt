@@ -1,3 +1,114 @@
+//Empty strings are:
+//  SD/MMC Card
+//  Внутреннее хранилище (mmcblk0)
+//  MMC
+======
+SOS (mmcblk0p1)
+  8 MB
+  mmcblk0p1
+  SOS
+  179
+  1
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
+=====
+LNX (mmcblk0p2)
+  8 MB
+  mmcblk0p2
+  LNX
+  179
+  2
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
+=====
+MSC (mmcblk0p5)
+  2 MB
+  mmcblk0p5
+  MSC
+  179
+  5
+  SD/MMC Card
+  Внутреннее хранилище (mmcblk0)
+  MMC
+=====
+USP
+  32 MB
+  mmcblk0p6
+  USP
+  179
+  6
+  
+  
+  
+=====
+MDA
+  2 MB
+  mmcblk0p7
+  MDA
+  179
+  7
+  
+  
+  
+=====
+UDB (mmcblk0p8)
+  230 686 720 B
+  /forever/addon
+  ext4
+  Read/Write
+  4 KB
+  mmcblk0p8
+  UDB
+  179
+  8
+  
+  
+  
+=====
+UDC 
+  2 MB
+  mmcblk0p9
+  UDC
+  179
+  9
+  
+  
+  
+=====
+UDD
+  67 108 864 B
+  /forever
+  ext4
+  Read/Write
+  4 KB
+  mmcblk0p10
+  UDD
+  179
+  10
+  
+  
+  
+=====
+mmcblk0boot1
+  4 MB
+  mmcblk0boot1
+  179
+  32
+  
+  
+  
+=====
+mmcblk0boot0
+  4 MB
+  mmcblk0boot0
+  179
+  16
+  
+  
+  
+=====
 Cache (CAC) (mmcblk0p4)
   805 306 368 B
   /cache
