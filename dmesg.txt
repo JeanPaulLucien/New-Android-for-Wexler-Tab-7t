@@ -1,0 +1,1650 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 3.1.10-ge4f6d9f-dirty (MID@ubuntu) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #9 SMP PREEMPT Thu Oct 17 22:06:58 CST 2013
+<4>[    0.000000] CPU: ARMv7 Processor [412fc099] revision 9 (ARMv7), cr=10c5387d
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[    0.000000] Machine: QC750
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<4>[    0.000000] Ignoring unrecognised tag 0x41000801
+<6>[    0.000000] Found tegra_fbmem: 007d0c80@acc23000
+<6>[    0.000000] Tegra reserved memory:
+<6>[    0.000000] LP0:                    bddf9000 - bddfafff
+<6>[    0.000000] Bootloader framebuffer: acc23000 - ad3f3fff
+<6>[    0.000000] Framebuffer:            bec00000 - bf4fffff
+<6>[    0.000000] 2nd Framebuffer:        bf500000 - bfdfffff
+<6>[    0.000000] Carveout:               00000000 - 00000000
+<6>[    0.000000] Vpr:                    00000000 - 00000000
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 256768
+<7>[    0.000000] free_area_init_node: node 0, pgdat c0b689e0, node_mem_map c0e09000
+<7>[    0.000000]   Normal zone: 1728 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 194880 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 572 pages used for memmap
+<7>[    0.000000]   HighMem zone: 59588 pages, LIFO batch:15
+<6>[    0.000000] fuse_speedo_calib: ATE prog ver 4.0
+<6>[    0.000000] Tegra3: CPU Speedo ID 7, Soc Speedo ID 1
+<6>[    0.000000] Tegra Revision: A03 SKU: 0x83 CPU Process: 3 Core Process: 0
+<6>[    0.000000] tegra: PLLP fixed rate: 408000000
+<4>[    0.000000] Lowering cpu_lp maximum rate from 620000000 to 500000000
+<4>[    0.000000] Lowering sbus maximum rate from 378000000 to 267000000
+<4>[    0.000000] Lowering vi maximum rate from 470000000 to 409000000
+<4>[    0.000000] Lowering vde maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering mpe maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering 2d maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering epp maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering 3d maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering 3d2 maximum rate from 600000000 to 416000000
+<4>[    0.000000] Lowering se maximum rate from 625000000 to 416000000
+<4>[    0.000000] Lowering host1x maximum rate from 300000000 to 267000000
+<4>[    0.000000] Lowering cbus maximum rate from 700000000 to 416000000
+<4>[    0.000000] Lowering pll_c maximum rate from 1400000000 to 1066000000
+<4>[    0.000000] Lowering ndflash maximum rate from 240000000 to 200000000
+<4>[    0.000000] Lowering sbc1 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering sbc2 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering sbc3 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering sbc4 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering sbc5 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering sbc6 maximum rate from 160000000 to 100000000
+<4>[    0.000000] Lowering dsia maximum rate from 500000000 to 432500000
+<4>[    0.000000] Lowering dsib maximum rate from 500000000 to 432500000
+<4>[    0.000000] Lowering cpu_g maximum rate from 1700000000 to 1300000000
+<4>[    0.000000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[    0.000000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[    0.000000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[    0.000000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<6>[    0.000000] tegra dvfs: VDD_CPU nominal 1025mV, scaling enabled
+<6>[    0.000000] tegra dvfs: VDD_CORE nominal 1200mV, scaling enabled
+<6>[    0.000000] L310 cache controller enabled
+<6>[    0.000000] l2x0: 8 ways, CACHE_ID 0x410000c7, AUX_CTRL 0x7e080001, Cache size: 1048576 B
+<6>[    0.000000] PERCPU: Embedded 8 pages/cpu @c1711000 s11296 r8192 d13280 u32768
+<7>[    0.000000] pcpu-alloc: s11296 r8192 d13280 u32768 alloc=8*4096
+<7>[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 254468
+<5>[    0.000000] Kernel command line: tegraid=30.1.3.0.0 mem=1022M@2048M androidboot.hw_ver=15 commchip_id=1 androidboot.cpuid=015d490674581818 androidboot.commchip_id=1 androidboot.module_3g_config=1 video=tegrafb no_console_suspend=1 console=ttyS0,115200n8 debug_uartport=lsport,3 usbcore.old_scheme_first=1 lp0_vec=8192@0xbddf9000 tegra_fbmem=8195200@0xacc23000 core_edp_mv=0 power_supply=Adapter audio_codec=rt5640 board_info=f41:0:1:0:0 tegraboot=sdmmc gpt gpt_sector=61071359 android.kerneltype=normal
+<6>[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Memory: 1003MB = 1003MB total
+<5>[    0.000000] Memory: 994320k/994320k available, 52208k reserved, 240632K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xf0800000 - 0xf8000000   ( 120 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .text : 0xc0008000 - 0xc09f9630   (10182 kB)
+<5>[    0.000000]       .init : 0xc09fa000 - 0xc0a56c20   ( 372 kB)
+<5>[    0.000000]       .data : 0xc0a58000 - 0xc0b7d60c   (1174 kB)
+<5>[    0.000000]        .bss : 0xc0b7d630 - 0xc0cfecf0   (1542 kB)
+<6>[    0.000000] Preemptible hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:800
+<6>[    0.000000] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 4294967ms
+<6>[    0.000226] Calibrating delay loop... 1993.93 BogoMIPS (lpj=9969664)
+<6>[    0.060093] pid_max: default: 32768 minimum: 301
+<6>[    0.060290] Mount-cache hash table entries: 512
+<6>[    0.061041] Initializing cgroup subsys debug
+<6>[    0.061055] Initializing cgroup subsys cpuacct
+<6>[    0.061109] Initializing cgroup subsys freezer
+<6>[    0.061142] CPU: Testing write buffer coherency: ok
+<6>[    0.061190] ftrace: allocating 27513 entries in 81 pages
+<6>[    0.082641] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+<4>[    0.084079] CPU1: Booted secondary processor
+<4>[    0.084771] CPU2: Booted secondary processor
+<4>[    0.085440] CPU3: Booted secondary processor
+<6>[    0.085589] Brought up 4 CPUs
+<6>[    0.085600] SMP: Total of 4 processors activated (7975.73 BogoMIPS).
+<6>[    0.089526] print_constraints: dummy: 
+<6>[    0.089767] NET: Registered protocol family 16
+<6>[    0.090621] host1x bus init
+<6>[    0.090700] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<6>[    0.205693] kai_edp_init: CPU regulator 6000 mA
+<6>[    0.205731] Selecting UARTD as the debug console
+<6>[    0.205746] The debug console clock name is uartd_dbg
+<6>[    0.206061] serial8250.0: ttyS0 at MMIO 0x70006300 (irq = 122) is a Tegra
+<6>[    0.817089] console [ttyS0] enabled
+<6>[    0.843752] ram_console: got buffer at beb00000, size 100000
+<6>[    0.849528] ram_console: uncorrectable error in header
+<6>[    0.854676] ram_console: no valid data in buffer (sig = 0xffffffff)
+<6>[    0.871070] console [ram-1] enabled
+<6>[    0.875349] Clear bootloader IO dpd settings
+<4>[    0.879686] =====touch====
+<6>[    0.882460] Registering gpio keys
+<6>[    0.910710] *** sensor_init...
+<6>[    0.913871] ** compass init **
+<3>[    0.917000] kai_emc_init:==================>mem_selecter = 2,pg4=1,pg5=0
+<6>[    0.924104] tegra: validated EMC DFS table
+<3>[    0.928264] kai_emc_init:==================> use  elpipa ddr3
+<6>[    0.934141] hw-breakpoint: found 6 breakpoint and 1 watchpoint registers.
+<6>[    0.940985] hw-breakpoint: 1 breakpoint(s) reserved for watchpoint single-step.
+<6>[    0.948424] hw-breakpoint: maximum watchpoint size is 4 bytes.
+<6>[    0.955236] tegra_iovmm_register: added iovmm-smmu
+<6>[    0.967725] bio: create slab <bio-0> at 0
+<6>[    0.972707] vgaarb: loaded
+<4>[    0.975556] i2c-core: driver [tps6591x] using legacy suspend method
+<4>[    0.981936] i2c-core: driver [tps6591x] using legacy resume method
+<4>[    0.988313] i2c-core: driver [ricoh583] using legacy suspend method
+<4>[    0.994647] i2c-core: driver [ricoh583] using legacy resume method
+<5>[    1.001240] SCSI subsystem initialized
+<6>[    1.005566] usbcore: registered new interface driver usbfs
+<6>[    1.011196] usbcore: registered new interface driver hub
+<6>[    1.016671] usbcore: registered new device driver usb
+<6>[    1.021865] tegra-otg tegra-otg: otg transceiver registered
+<3>[    1.032761] max77663_sleep: entry pmu low power mode!
+<6>[    1.039788] print_constraints: max77663_sd0: 600 <--> 3387 mV at 1025 mV normal standby
+<6>[    1.049117] print_constraints: max77663_sd1: 800 <--> 1587 mV at 1200 mV normal standby
+<6>[    1.058328] print_constraints: max77663_sd2: 1800 mV normal standby
+<6>[    1.065771] print_constraints: max77663_sd3: 600 <--> 3387 mV at 1350 mV normal standby
+<6>[    1.075097] print_constraints: max77663_ldo0: 800 <--> 2350 mV at 1000 mV normal standby
+<6>[    1.083330] set_supply: max77663_ldo0: supplied by max77663_sd3
+<6>[    1.090270] print_constraints: max77663_ldo1: 800 <--> 2350 mV at 1200 mV normal standby
+<6>[    1.098508] set_supply: max77663_ldo1: supplied by max77663_sd3
+<6>[    1.105738] print_constraints: max77663_ldo2: 800 <--> 3950 mV at 2800 mV normal standby
+<6>[    1.114967] print_constraints: max77663_ldo3: 800 <--> 3950 mV at 2850 mV normal standby
+<6>[    1.124624] print_constraints: max77663_ldo4: 800 <--> 1587 mV at 1000 mV normal standby
+<6>[    1.133900] print_constraints: max77663_ldo5: 800 <--> 2800 mV at 2800 mV normal standby
+<6>[    1.142983] print_constraints: max77663_ldo6: 800 <--> 3950 mV at 3300 mV normal standby
+<6>[    1.152130] print_constraints: max77663_ldo7: 800 <--> 3950 mV at 1200 mV normal standby
+<6>[    1.160364] set_supply: max77663_ldo7: supplied by max77663_sd3
+<6>[    1.167432] print_constraints: max77663_ldo8: 800 <--> 3950 mV at 1200 mV normal standby
+<6>[    1.175673] set_supply: max77663_ldo8: supplied by max77663_sd3
+<6>[    1.183361] Advanced Linux Sound Architecture Driver Version 1.0.24.
+<6>[    1.190168] Bluetooth: Core ver 2.16
+<6>[    1.193857] NET: Registered protocol family 31
+<6>[    1.198421] Bluetooth: HCI device and connection manager initialized
+<6>[    1.204845] Bluetooth: HCI socket layer initialized
+<6>[    1.209842] Bluetooth: L2CAP socket layer initialized
+<6>[    1.215054] NFC: NFC Core ver 0.1
+<6>[    1.218522] NET: Registered protocol family 39
+<4>[    1.223045] kai_fixed_regulator_init nfixreg_devs=7
+<4>[    1.228078] max77663 4-003c: gpio_dir_output: gpio3 is used as alternate mode
+<4>[    1.235422] max77663 4-003c: gpio_set: gpio3 is used as alternate mode
+<6>[    1.242070] print_constraints: fixed_reg_en_3v3_sys_a01: 3300 mV normal standby
+<6>[    1.249924] print_constraints: fixed_reg_en_avdd_hdmi_usb_a01: 3300 mV normal standby
+<6>[    1.257893] set_supply: fixed_reg_en_avdd_hdmi_usb_a01: supplied by fixed_reg_en_3v3_sys_a01
+<6>[    1.266683] print_constraints: fixed_reg_en_vddio_vid: 5000 mV normal standby
+<6>[    1.274087] print_constraints: fixed_reg_en_vdd_sdmmc1: 3300 mV normal standby
+<6>[    1.281431] set_supply: fixed_reg_en_vdd_sdmmc1: supplied by fixed_reg_en_3v3_sys_a01
+<6>[    1.289593] print_constraints: fixed_reg_en_3v3_fuse: 3300 mV normal standby
+<6>[    1.296723] set_supply: fixed_reg_en_3v3_fuse: supplied by fixed_reg_en_3v3_sys_a01
+<6>[    1.304731] print_constraints: fixed_reg_en_1v8_cam: 1800 mV normal standby
+<6>[    1.311992] print_constraints: fixed_reg_en_cam1_ldo: 2800 mV normal standby
+<6>[    1.319122] set_supply: fixed_reg_en_cam1_ldo: supplied by fixed_reg_en_3v3_sys_a01
+<6>[    1.327508] tegra: started io power detection dynamic control
+<6>[    1.333332] tegra: NO_IO_POWER setting 0x1200
+<6>[    1.337808] Switching to clocksource timer_us
+<6>[    1.342613] Switched to NOHz mode on CPU #0
+<6>[    1.344112] Switched to NOHz mode on CPU #1
+<6>[    1.344799] Switched to NOHz mode on CPU #2
+<6>[    1.345467] Switched to NOHz mode on CPU #3
+<6>[    1.371182] nvmap_page_pool_init: nvmap uc page pool size=31072 pages
+<6>[    1.398396] nvmap_page_pool_init: nvmap pool = uc, highmem=31072, pool_size=31072,totalram=248580, freeram=216690, totalhigh=60158, freehigh=29018
+<6>[    1.494747] nvmap_page_pool_init: nvmap wc page pool size=31072 pages
+<6>[    1.524335] nvmap_page_pool_init: nvmap pool = wc, highmem=28962, pool_size=31072,totalram=248580, freeram=185533, totalhigh=60158, freehigh=0
+<6>[    1.621251] nvmap_page_pool_init: nvmap iwb page pool size=31072 pages
+<6>[    1.679847] nvmap_page_pool_init: nvmap pool = iwb, highmem=0, pool_size=31072,totalram=248580, freeram=154409, totalhigh=60158, freehigh=0
+<6>[    1.788982] tegra-nvmap tegra-nvmap: created carveout iram (255KiB)
+<6>[    1.796588] NET: Registered protocol family 2
+<6>[    1.801236] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    1.808858] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    1.817903] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)
+<6>[    1.825501] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    1.832172] TCP reno registered
+<6>[    1.835388] UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    1.841445] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    1.848180] NET: Registered protocol family 1
+<6>[    1.852979] RPC: Registered named UNIX socket transport module.
+<6>[    1.858960] RPC: Registered udp transport module.
+<6>[    1.863792] RPC: Registered tcp transport module.
+<6>[    1.868556] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<7>[    1.875124] PCI: CLS 0 bytes, default 32
+<6>[    1.879251] Unpacking initramfs...
+<6>[    1.894250] host1x host1x: initialized
+<6>[    1.898153] PMU: registered new PMU device of type 0
+<6>[    1.903460] tegra3_throttle : init done
+<6>[    1.907531] Tegra auto-hotplug initialized: disabled
+<6>[    1.912586] cpu-tegra: init EDP limit: 1150 MHz
+<4>[    1.934384] highmem bounce pool size: 64 pages
+<6>[    1.939126] ashmem: initialized
+<6>[    1.943417] NTFS driver 2.1.30 [Flags: R/O].
+<6>[    1.947832] fuse init (API version 7.17)
+<6>[    1.952012] Registering char device tf_driver (122:0)
+<6>[    1.957308] TF : INFO 00000001 00:00:00.000 ------ ------  --------------- Booting... (t=00:00:06.364) TFNXBF01.15.37104     /Trusted-Logic
+<6>[    1.971011] io scheduler noop registered (default)
+<6>[    1.976918] mpe mpe: initialized
+<6>[    1.981134] gr3d gr3d: initialized
+<6>[    1.985332] gr2d gr2d: initialized
+<6>[    1.989087] isp isp: initialized
+<6>[    1.992527] vi vi: initialized
+<4>[    1.996305] hold the usbd.emc for usb
+<3>[    2.000098] kai_panel_enable:====================>EXE
+<4>[    2.007415] kai_panel_postpoweron
+<6>[    2.266213] tegradc tegradc.0: probed
+<6>[    2.270246] tegradc tegradc.0: probed
+<6>[    2.282903] nvhdcp: using "always on" policy.
+<6>[    2.287604] tegradc tegradc.1: probed
+<6>[    2.291635] tegradc tegradc.1: probed
+<6>[    2.295940] tegra_uart.0: ttyHS0 at MMIO 0x70006000 (irq = 68) is a TEGRA_UART
+<6>[    2.442276] Registered UART port ttyHS0
+<6>[    2.446258] tegra_uart.1: ttyHS1 at MMIO 0x70006040 (irq = 69) is a TEGRA_UART
+<6>[    2.602286] Registered UART port ttyHS1
+<6>[    2.606263] tegra_uart.2: ttyHS2 at MMIO 0x70006200 (irq = 78) is a TEGRA_UART
+<6>[    2.762276] Registered UART port ttyHS2
+<6>[    2.766339] tegra_uart.4: ttyHS4 at MMIO 0x70006400 (irq = 123) is a TEGRA_UART
+<6>[    2.922280] Registered UART port ttyHS4
+<6>[    2.926270] Initialized tegra uart driver
+<6>[    2.933110] loop: module loaded
+<4>[    2.936409] i2c-core: driver [apds9802als] using legacy suspend method
+<4>[    2.943074] i2c-core: driver [apds9802als] using legacy resume method
+<6>[    2.949865] (stk) :sysfs entries created
+<6>[    2.953889] (stk) : debugfs entries created 
+<6>[    2.958162] (stk) :change to new rfkill state: 0
+<6>[    2.963166] (stk) :wl127x_config_bt_on: Entering
+<6>[    2.963184] (stk) :rfkill prob for Bluetooth ==> status: 0
+<6>[    2.963245] (hci_tty): inside hci_tty_init
+<6>[    2.963355] (hci_tty): allocated 244, 0
+<6>[    2.963362] AKM8975 compass driver: initialize
+<3>[    2.986327] akm8975_probe,gpio=176===========>
+<6>[    2.991024] input: compass as /devices/virtual/input/input0
+<6>[    2.996964] nct1008_nct72 4-004c: no regulator found for vdd. Assuming vdd is always powered
+<6>[    3.008003] nct1008_nct72 4-004c: nct1008_probe: initialized
+<4>[    3.016345] i2c-core: driver [nct1008_nct72] using legacy suspend method
+<4>[    3.023125] i2c-core: driver [nct1008_nct72] using legacy resume method
+<4>[    3.030144] i2c-core: driver [dmard06] using legacy suspend method
+<4>[    3.036557] i2c-core: driver [dmard06] using legacy resume method
+<6>[    3.043295] kionix_accel 0-000f: this accelerometer is a KXTIK.
+<6>[    3.049574] input: kionix_accel as /devices/platform/tegra-i2c.0/i2c-0/0-000f/input/input1
+<6>[    3.058044] kionix_accel 0-000f: running in software polling mode
+<4>[    3.065937] ============================================================
+<4>[    3.072776] kionix driver loaded
+<4>[    3.076065] ============================================================
+<6>[    3.082967] lis3dh_acc accelerometer driver: init
+<4>[    3.087825] i2c-core: driver [lis3dh_acc] using legacy suspend method
+<4>[    3.094340] i2c-core: driver [lis3dh_acc] using legacy resume method
+<4>[    3.100953] i2c-core: driver [elan-epl6814] using legacy suspend method
+<4>[    3.107701] i2c-core: driver [elan-epl6814] using legacy resume method
+<6>[    3.114615] PPP generic driver version 2.4.2
+<6>[    3.119146] PPP Deflate Compression module registered
+<6>[    3.124339] PPP BSD Compression module registered
+<6>[    3.129853] PPP MPPE Compression module registered
+<6>[    3.135020] NET: Registered protocol family 24
+<6>[    3.140440] tun: Universal TUN/TAP device driver, 1.6
+<6>[    3.145696] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    3.152368] usbcore: registered new interface driver asix
+<6>[    3.157928] usbcore: registered new interface driver cdc_ether
+<6>[    3.163883] usbcore: registered new interface driver smsc95xx
+<6>[    3.169886] usbcore: registered new interface driver cdc_subset
+<6>[    3.175892] cdc_ncm: 04-Aug-2011
+<6>[    3.179218] usbcore: registered new interface driver cdc_ncm
+<6>[    3.185105] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    3.191805] tegra USB phy - inst[1] platform info:
+<6>[    3.196670] port_otg: no
+<6>[    3.199357] has_hostpc: yes
+<6>[    3.202212] phy_interface: USB_PHY_INTF_UTMI
+<6>[    3.206655] op_mode: TEGRA_USB_OPMODE_HOST
+<6>[    3.210848] vbus_gpio: -1
+<6>[    3.213606] vbus_reg: NULL
+<6>[    3.216592] hot_plug: disabled
+<6>[    3.219777] remote_wakeup: enabled
+<3>[    3.227441] Timed out waiting for lock bit on pll pll_u
+<6>[    3.236743] tegra-ehci tegra-ehci.1: Tegra EHCI Host Controller
+<6>[    3.243080] tegra-ehci tegra-ehci.1: new USB bus registered, assigned bus number 1
+<6>[    3.272297] tegra-ehci tegra-ehci.1: irq 53, io mem 0x7d004000
+<6>[    3.292282] tegra-ehci tegra-ehci.1: USB 2.0 started, EHCI 1.00
+<6>[    3.298383] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    3.305331] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    3.312681] usb usb1: Product: Tegra EHCI Host Controller
+<6>[    3.318276] usb usb1: Manufacturer: Linux 3.1.10-ge4f6d9f-dirty ehci_hcd
+<6>[    3.325049] usb usb1: SerialNumber: tegra-ehci.1
+<6>[    3.330090] hub 1-0:1.0: USB hub found
+<6>[    3.334023] hub 1-0:1.0: 1 port detected
+<6>[    3.338244] tegra USB phy - inst[2] platform info:
+<6>[    3.343202] port_otg: no
+<6>[    3.345797] has_hostpc: yes
+<6>[    3.348649] phy_interface: USB_PHY_INTF_UTMI
+<6>[    3.353087] op_mode: TEGRA_USB_OPMODE_HOST
+<6>[    3.357312] vbus_gpio: -1
+<6>[    3.359993] vbus_reg: NULL
+<6>[    3.362772] hot_plug: enabled
+<6>[    3.365855] remote_wakeup: enabled
+<6>[    3.370528] tegra-ehci tegra-ehci.2: Tegra EHCI Host Controller
+<6>[    3.376565] tegra-ehci tegra-ehci.2: new USB bus registered, assigned bus number 2
+<6>[    3.412307] tegra-ehci tegra-ehci.2: irq 129, io mem 0x7d008000
+<6>[    3.432291] tegra-ehci tegra-ehci.2: USB 2.0 started, EHCI 1.00
+<6>[    3.438326] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    3.445246] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    3.452535] usb usb2: Product: Tegra EHCI Host Controller
+<6>[    3.458049] usb usb2: Manufacturer: Linux 3.1.10-ge4f6d9f-dirty ehci_hcd
+<6>[    3.464817] usb usb2: SerialNumber: tegra-ehci.2
+<6>[    3.469856] hub 2-0:1.0: USB hub found
+<6>[    3.473695] hub 2-0:1.0: 1 port detected
+<6>[    3.478184] usbcore: registered new interface driver cdc_acm
+<6>[    3.483917] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    3.492076] usbcore: registered new interface driver cdc_wdm
+<6>[    3.497810] Initializing USB Mass Storage driver...
+<6>[    3.502906] usbcore: registered new interface driver usb-storage
+<6>[    3.508970] USB Mass Storage support registered.
+<6>[    3.513793] usbcore: registered new interface driver libusual
+<6>[    3.519692] usbcore: registered new interface driver usbserial
+<6>[    3.525656] usbserial: USB Serial Driver core
+<6>[    3.530103] USB Serial support registered for GSM modem (1-port)
+<6>[    3.536366] usbcore: registered new interface driver option
+<6>[    3.541997] option: v0.7.2:USB Driver for GSM modems
+<6>[    3.547063] USB Serial support registered for pl2303
+<6>[    3.552198] usbcore: registered new interface driver pl2303
+<6>[    3.557841] pl2303: Prolific PL2303 USB to serial adaptor driver
+<6>[    3.564000] Nvidia Tegra High-Speed USB SOC 					Device Controller driver (Apr 30, 2012)
+<6>[    3.572325] tegra USB phy - inst[0] platform info:
+<6>[    3.577175] port_otg: yes
+<6>[    3.579853] has_hostpc: yes
+<6>[    3.582776] phy_interface: USB_PHY_INTF_UTMI
+<6>[    3.587104] op_mode: TEGRA_USB_OPMODE_DEVICE
+<6>[    3.591429] vbus_pmu_irq: 0
+<6>[    3.594350] vbus_gpio: -1
+<6>[    3.597029] charging: disabled
+<6>[    3.600142] remote_wakeup: disabled
+<6>[    3.606031] tegra-udc tegra-udc.0: usb_bat_chg regulator not registered: USB charging will not be enabled
+<6>[    3.615773] tegra-otg tegra-otg: SUSPEND --> PERIPHERAL
+<6>[    3.623211] android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    3.630147] android_usb gadget: Number of LUNs=1
+<6>[    3.634895]  lun0: LUN: removable file: (no medium)
+<6>[    3.640025] android_usb gadget: android_usb ready
+<6>[    3.644868] tegra-udc: bind to driver android_usb
+<6>[    3.650073] usbcore: registered new interface driver xpad
+<6>[    3.655637] in function ____rmi_bus_init____  
+<6>[    3.660232] rmi_bus_init: successfully registered RMI bus.
+<6>[    3.665839] rmi_spi_init: registering synaptics spi driver (ref=124)
+<6>[    3.672323]              driver.owner        =  0x0
+<6>[    3.677257]              driver.name         =  rmi_spi
+<6>[    3.682606]              id_table[0].name    =  rmi
+<6>[    3.687539]              id_table[1].name    =  rmi_spi
+<6>[    3.692891]              probe function ptr  =  0xc06cba08
+<6>[    3.698461] in function ____rmi_register_driver____  
+<6>[    3.703670] in function ____rmi_get_function_handler____  
+<6>[    3.709212] in function ____rmi_get_function_handler____  
+<6>[    3.714824] in function ____rmi_get_function_handler____  
+<6>[    3.720365] in function ____rmi_get_function_handler____  
+<6>[    3.725940] in function ____rmi_get_function_handler____  
+<6>[    3.731542] in function ____rmi_get_function_handler____  
+<3>[    3.752743] rtc_read_time: buf: 0x34 0x00 0x4f 0x04 0x08 0x12 0x1c
+<3>[    3.759045] rtc_read_time: tm: 118-07-28 15:00:52, wday=2
+<6>[    3.779373] using rtc device, max77663-rtc, for alarms
+<6>[    3.784593] max77663-rtc max77663-rtc.0: rtc core: registered max77663-rtc as rtc0
+<6>[    3.793034] i2c /dev entries driver
+<6>[    3.797016] Linux video capture interface: v2.00
+<6>[    3.801879] usbcore: registered new interface driver uvcvideo
+<6>[    3.807760] USB Video Class driver (1.1.1)
+<6>[    3.811988] trpc_sema_init: registered misc dev 10:50
+<6>[    3.817337] trpc_node_register: Adding 'local' to node list
+<6>[    3.824522] nvavp nvavp: allocated IOVM at ff00000 for AVP os
+<6>[    3.830756] tegra_camera tegra_camera: tegra_camera_probe
+<6>[    3.836361] tegra_camera tegra_camera: tegra_camera_probe CONFIG_ARCH_TEGRA_2x_SOC  get avdd_dsi_csi
+<6>[    3.845856] ar0832_init: ++
+<6>[    3.848912] gc0328 sensor_init
+<6>[    3.852149] gc0328 sensor_probe
+<6>[    3.855505] gc0328 sensor_probe register successfully!
+<6>[    3.860786] t8ev5 sensor_init
+<6>[    3.863856] t8ev5 sensor_probe
+<6>[    3.867356] t8ev5 sensor_probe register successfully!
+<3>[    3.872680] bq27x00_battery_probe id=bq27500
+<6>[    3.878021] bq27x00-battery 1-0055: updatePresent present=1 ret=0
+<4>[    4.988173] reading the ac status 3620000
+<4>[    5.195442] count_time=0
+<3>[    5.203868] bq27x00_battery_probe=======>success
+<6>[    5.208549] bq27x00-battery 1-0055: support ver. 1.1.0 enabled
+<4>[    5.214618] i2c-core: driver [bq27x00-battery] using legacy suspend method
+<4>[    5.221547] i2c-core: driver [bq27x00-battery] using legacy resume method
+<4>[    5.228824] pdata->bq24160_reg3=8e
+<4>[    5.232301] pdata->bq24160_reg5=ee
+<4>[    5.236807] get_online_state=0x40
+<6>[    5.240532] print_constraints: vbus_otg: normal standby
+<4>[    5.245954] get_online_state=0x40
+<4>[    5.249401] i2c-core: driver [bq24160_charger] using legacy suspend method
+<4>[    5.256422] i2c-core: driver [bq24160_charger] using legacy resume method
+<6>[    5.263591] device-mapper: uevent: version 1.0.3
+<6>[    5.268401] device-mapper: ioctl: 4.21.0-ioctl (2011-07-06) initialised: dm-devel@redhat.com
+<6>[    5.277470] cpuidle: using governor ladder
+<6>[    5.281959] cpuidle: using governor menu
+<6>[    5.286018] sdhci: Secure Digital Host Controller Interface driver
+<6>[    5.292325] sdhci: Copyright(c) Pierre Ossman
+<6>[    5.296741] sdhci-pltfm: SDHCI platform and OF driver helper
+<4>[    5.298537] reading the ac status 3860000
+<4>[    5.307727] mmc0: Invalid maximum block size, assuming 512 bytes
+<7>[    5.315019] Registered led device: mmc0::
+<6>[    5.321306] mmc0: SDHCI controller on sdhci-tegra.3 [sdhci-tegra.3] using ADMA
+<6>[    5.329994] sdhci-tegra sdhci-tegra.2: vddio_sd_slot regulator not found: -19. Assuming vddio_sd_slot is not required.
+<4>[    5.341857] mmc1: Invalid maximum block size, assuming 512 bytes
+<7>[    5.349066] Registered led device: mmc1::
+<6>[    5.355370] mmc1: SDHCI controller on sdhci-tegra.2 [sdhci-tegra.2] using ADMA
+<4>[    5.368101] mmc2: Invalid maximum block size, assuming 512 bytes
+<7>[    5.375366] Registered led device: mmc2::
+<6>[    5.381615] mmc2: SDHCI controller on sdhci-tegra.0 [sdhci-tegra.0] using ADMA
+<7>[    5.389267] Registered led device: statled
+<6>[    5.395497] tegra-se tegra-se: tegra_se_probe: complete
+<6>[    5.402691] usbcore: registered new interface driver usbhid
+<6>[    5.408568] usbhid: USB HID core driver
+<6>[    5.412734] logger: created 256K log 'log_main'
+<6>[    5.417455] logger: created 256K log 'log_events'
+<6>[    5.422315] logger: created 256K log 'log_radio'
+<6>[    5.426280] mmc0: new high speed DDR MMC card at address 0001
+<6>[    5.426454] mmcblk mmc0:0001: Card claimed for testing.
+<6>[    5.426738] mmcblk0: mmc0:0001 032G94 29.1 GiB 
+<6>[    5.426934] mmcblk0boot0: mmc0:0001 032G94 partition 1 4.00 MiB
+<6>[    5.427123] mmcblk0boot1: mmc0:0001 032G94 partition 2 4.00 MiB
+<4>[    5.431792] Primary GPT is invalid, using alternate GPT.
+<6>[    5.431853]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12
+<6>[    5.465965] logger: created 256K log 'log_system'
+<6>[    5.468728]  mmcblk0boot1: unknown partition table
+<4>[    5.475918] i2c-core: driver [LTR_558ALS] using legacy suspend method
+<6>[    5.478423]  mmcblk0boot0: unknown partition table
+<4>[    5.487337] i2c-core: driver [LTR_558ALS] using legacy resume method
+<4>[    5.517449] count_time=1
+<6>[    5.992290] HDMI status: Codec=3 Pin=5 Presence_Detect=0 ELD_Valid=0
+<6>[    6.032752] usbcore: registered new interface driver snd-usb-audio
+<6>[    6.039502] AIC325x Audio Codec 1.1
+<4>[    6.043078] aic325x hw reset
+<4>[    6.196171] aic325x hw reset done
+<1>[    6.199613] codec: aic325x_i2c_probe : snd_soc_register_codec success
+<4>[    6.207695] aic325x reg init
+<4>[    6.618336] Registered aic325x TiLoad driver, Major number: 240 
+<3>[    6.625030] tlv320aic325x 4-0018: dapm: unknown pin IN2L
+<3>[    6.630404] tlv320aic325x 4-0018: dapm: unknown pin IN2R
+<6>[    6.643347] asoc: tlv320aic325x-MM_EXT <-> tegra30-i2s.1 mapping ok
+<6>[    6.650646] asoc: dit-hifi <-> tegra30-spdif mapping ok
+<6>[    6.656619] asoc: dit-hifi <-> tegra30-i2s.3 mapping ok
+<6>[    6.662543] input: tegra-aic325x Headset Jack as /devices/platform/tegra-snd-aic325x.0/sound/card1/input2
+<6>[    6.672659] ALSA device list:
+<6>[    6.675688]   #0: HDA NVIDIA Tegra at 0x70038000 irq 113
+<6>[    6.681113]   #1: tegra-aic325x
+<6>[    6.684645] oprofile: using arm/armv7-ca9
+<6>[    6.688898] GACT probability NOT on
+<6>[    6.692470] Mirror/redirect action on
+<6>[    6.696192] u32 classifier
+<6>[    6.698954]     Actions configured
+<6>[    6.702626] Netfilter messages via NETLINK v0.30.
+<6>[    6.707558] nf_conntrack version 0.5.0 (15536 buckets, 62144 max)
+<6>[    6.714397] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    6.721510] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    6.727670] xt_time: kernel timezone is -0000
+<6>[    6.732244] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    6.737988] arp_tables: (C) 2002 David S. Miller
+<6>[    6.742736] TCP cubic registered
+<6>[    6.746143] NET: Registered protocol family 10
+<6>[    6.751555] Mobile IPv6
+<6>[    6.754110] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    6.759724] IPv6 over IPv4 tunneling driver
+<6>[    6.764916] NET: Registered protocol family 17
+<6>[    6.769620] NET: Registered protocol family 15
+<6>[    6.774263] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    6.780811] NET: Registered protocol family 37
+<6>[    6.785429] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<5>[    6.793313] Registering SWP/SWPB emulation handler
+<4>[    6.808643] Disabling clocks left on by bootloader:
+<4>[    6.813592]    dsi2-fixed
+<4>[    6.816461]    dsi1-fixed
+<4>[    6.819154]    uartd
+<4>[    6.821475]    fuse_burn
+<4>[    6.824093]    cclk_lp
+<4>[    6.826513]    pll_x_out0
+<4>[    6.829191]    pll_d2_out0
+<4>[    6.831956]    pll_d_out0
+<4>[    6.834816]    pll_p_out2
+<4>[    6.837562]    pll_c_out1
+<4>[    6.840330]    pll_m_out1
+<6>[    6.843444] CPU rate: 1000 MHz
+<6>[    6.846957] DVFS: Got RTC device name:rtc0
+<3>[    6.865783] rtc_read_time: buf: 0x37 0x00 0x4f 0x04 0x08 0x12 0x1c
+<3>[    6.872168] rtc_read_time: tm: 118-07-28 15:00:55, wday=2
+<6>[    6.877667] TEGRA: Linear age: 8
+<4>[    6.881000] tegra_dvfs: vdd_cpu: stats above 1237 mV will be squashed
+<6>[    6.888032] tegra dvfs: tegra sysfs cap interface is initialized
+<6>[    6.894332] tegra_actmon.emc: Completed initialization (0)
+<6>[    6.900303] tegra_actmon.avp: Completed initialization (0)
+<4>[    6.906549] always hold the avdd for usb detection
+<4>[    6.912430] bq24160_is_otg_enabled
+<4>[    6.915898] regulator_init_complete: max77663_ldo8: incomplete constraints, leaving on
+<4>[    6.924082] regulator_init_complete: max77663_ldo5: incomplete constraints, leaving on
+<4>[    6.932149] regulator_init_complete: max77663_ldo4: incomplete constraints, leaving on
+<6>[    6.941130] input: gpio-keys as /devices/platform/gpio-keys.0/input/input3
+<6>[    7.152434] input: nt1103-ts as /devices/virtual/input/input4
+<4>[    7.832280] nvctp_CheckIsBootloader
+<4>[    7.838091] nvctp_CheckIsBootloader version = 0,ff,ff,ff,3f
+<4>[    7.843753] detect touch= 15
+<4>[    7.846695] detect touch old= 7
+<4>[    7.850038] touch type = 4
+<4>[    8.863412] nvctp_ReadFinalChecksum, DynChecksum checksum = 7c03 
+<4>[    8.902786] iic_buffer[1] 170
+<4>[    8.905871] ret 0
+<4>[    8.923931] nvctp_ReadFinalChecksum,  old version checksum = 7c03 
+<4>[    9.092476] ============================================================
+<4>[    9.099335] nvt_flash driver loaded
+<4>[    9.102960] ============================================================
+<4>[    9.109789] Start nt1103-ts in interrupt mode
+<4>[    9.114236] Driver Modify Date:2011-06-27
+<3>[    9.132971] rtc_read_time: buf: 0x39 0x00 0x4f 0x04 0x08 0x12 0x1c
+<3>[    9.139262] rtc_read_time: tm: 118-07-28 15:00:57, wday=2
+<6>[    9.144845] max77663-rtc max77663-rtc.0: setting system clock to 2018-08-28 15:00:57 UTC (1535468457)
+<3>[    9.158493] init: /init.qc750.rc: 316: invalid command 'umount'
+<4>[    9.165238] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<4>[    9.184472] get_online_state=0x40
+<4>[    9.290638] reading the ac status 3860000
+<4>[    9.497807] count_time=2
+<3>[    9.557541] init: could not open /dev/keychord
+<6>[    9.562434] init: command 'loglevel' r=0
+<6>[    9.566434] init: command 'export' r=0
+<6>[    9.570310] init: command 'export' r=0
+<6>[    9.574147] init: command 'export' r=0
+<6>[    9.577965] init: command 'export' r=0
+<6>[    9.581840] init: command 'export' r=0
+<6>[    9.585675] init: command 'export' r=0
+<6>[    9.589493] init: command 'export' r=0
+<6>[    9.593381] init: command 'export' r=0
+<6>[    9.597195] init: command 'export' r=0
+<6>[    9.601011] init: command 'export' r=0
+<6>[    9.604946] init: command 'symlink' r=0
+<6>[    9.608873] init: command 'symlink' r=0
+<6>[    9.612818] init: command 'symlink' r=0
+<6>[    9.616791] init: command 'mkdir' r=0
+<6>[    9.782381] init: command 'mount' r=0
+<6>[    9.786256] init: command 'mkdir' r=0
+<6>[    9.790081] init: command 'mkdir' r=0
+<6>[    9.793875] init: command 'mkdir' r=0
+<6>[    9.797636] init: command 'mkdir' r=0
+<6>[    9.801451] init: command 'mkdir' r=0
+<6>[    9.805252] init: command 'mkdir' r=0
+<6>[    9.809012] init: command 'mkdir' r=0
+<6>[    9.812852] init: command 'mkdir' r=0
+<6>[    9.816735] init: command 'mount' r=0
+<6>[    9.820500] init: command 'mkdir' r=0
+<6>[    9.824285] init: command 'mkdir' r=0
+<6>[    9.828045] init: command 'mkdir' r=0
+<6>[    9.831901] init: command 'mount' r=0
+<6>[    9.835684] init: command 'mkdir' r=0
+<6>[    9.839601] init: command 'mount' r=0
+<6>[    9.843431] init: command 'write' r=0
+<6>[    9.847218] init: command 'write' r=-2
+<6>[    9.851144] init: command 'write' r=0
+<6>[    9.854933] init: command 'write' r=0
+<6>[    9.858712] init: command 'write' r=0
+<6>[    9.862565] init: command 'write' r=-2
+<6>[    9.866412] init: command 'write' r=0
+<6>[    9.870176] init: command 'write' r=0
+<6>[    9.874019] init: command 'write' r=0
+<6>[    9.877781] init: command 'write' r=0
+<6>[    9.881549] init: command 'write' r=0
+<6>[    9.885394] init: command 'write' r=0
+<6>[    9.889157] init: command 'write' r=0
+<6>[    9.892921] init: command 'mkdir' r=0
+<6>[   10.022355] init: command 'mount' r=0
+<6>[   10.026114] init: command 'chown' r=0
+<6>[   10.029965] init: command 'chown' r=0
+<6>[   10.033833] init: command 'chmod' r=0
+<6>[   10.037585] init: command 'write' r=-22
+<6>[   10.041510] init: command 'write' r=0
+<6>[   10.045336] init: command 'write' r=0
+<6>[   10.049156] init: command 'mkdir' r=0
+<6>[   10.052931] init: command 'chown' r=0
+<6>[   10.056683] init: command 'chmod' r=0
+<6>[   10.060428] init: command 'write' r=0
+<6>[   10.064199] init: command 'write' r=0
+<6>[   10.067948] init: command 'write' r=0
+<6>[   10.071806] init: command 'mkdir' r=0
+<6>[   10.075585] init: command 'chown' r=0
+<6>[   10.079335] init: command 'chmod' r=0
+<6>[   10.083162] init: command 'write' r=0
+<6>[   10.086912] init: command 'write' r=0
+<6>[   10.090661] init: command 'write' r=0
+<6>[   10.094501] init: command 'chmod' r=0
+<6>[   10.098242] init: processing action 0x34058 (init)
+<6>[   10.103170] init: command 'mkdir' r=0
+<6>[   10.106992] init: command 'mkdir' r=0
+<6>[   10.110750] init: command 'mkdir' r=0
+<6>[   10.114505] init: command 'export' r=0
+<6>[   10.118380] init: command 'export' r=0
+<6>[   10.122229] init: command 'export' r=0
+<6>[   10.126066] init: command 'export' r=0
+<6>[   10.129970] init: command 'symlink' r=0
+<6>[   10.133915] init: command 'symlink' r=0
+<6>[   10.137842] init: command 'symlink' r=0
+<6>[   10.141838] init: command 'mkdir' r=0
+<6>[   10.145614] init: command 'symlink' r=0
+<6>[   10.149545] init: command 'mkdir' r=0
+<6>[   10.153375] init: command 'symlink' r=0
+<6>[   10.157282] init: processing action 0x374d8 (init)
+<3>[   10.162139] init: property 'ro.serialno' doesn't exist while expanding '${ro.serialno}'
+<3>[   10.170274] init: cannot expand '${ro.serialno}' while writing to '/sys/class/android_usb/android0/iSerial'
+<6>[   10.180142] init: command 'write' r=-22
+<6>[   10.184180] init: command 'write' r=0
+<6>[   10.188031] init: command 'write' r=0
+<6>[   10.191818] init: command 'write' r=0
+<6>[   10.195570] init: processing action 0x2c4b8 (fs)
+<6>[   10.200335] init: command 'mount' r=-1
+<6>[   10.204172] init: command 'mount' r=-1
+<6>[   10.207986] init: command 'mount' r=-1
+<6>[   10.211893] init: command 'mount' r=-1
+<6>[   10.215727] init: processing action 0x342e0 (fs)
+<6>[   10.220436] init: command 'setprop' r=0
+<6>[   10.224436] init: command 'setprop' r=0
+<6>[   10.235971] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+<6>[   10.244236] init: command 'mount' r=0
+<6>[   10.252971] init: command 'symlink' r=-1
+<6>[   10.257060] init: command 'chmod' r=-40
+<6>[   10.262721] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+<6>[   10.274818] EXT4-fs (mmcblk0p4): mounted filesystem with writeback data mode. Opts: journal_async_commit,data=writeback,nodelalloc,errors=panic
+<6>[   10.296763] EXT4-fs (mmcblk0p12): mounted filesystem with writeback data mode. Opts: journal_async_commit,data=writeback,nodelalloc,errors=panic
+<6>[   10.316097] EXT4-fs (mmcblk0p10): mounted filesystem with writeback data mode. Opts: journal_async_commit,data=writeback,nodelalloc
+<6>[   10.328330] init: command 'mount_all' r=0
+<6>[   10.332442] init: processing action 0x2c5a0 (post-fs)
+<6>[   10.337589] init: command 'mount' r=0
+<6>[   10.341414] init: command 'mount' r=0
+<6>[   10.345175] init: command 'mount' r=0
+<6>[   10.348987] init: command 'chown' r=0
+<6>[   10.352827] init: command 'chmod' r=0
+<6>[   10.356557] init: command 'restorecon' r=0
+<6>[   10.365201] init: command 'chown' r=0
+<6>[   10.369028] init: command 'chmod' r=0
+<6>[   10.372782] init: command 'restorecon' r=0
+<6>[   10.377015] init: command 'chown' r=0
+<6>[   10.380840] init: command 'chmod' r=0
+<6>[   10.384627] init: command 'chown' r=0
+<6>[   10.388390] init: command 'chmod' r=0
+<6>[   10.392211] init: command 'chown' r=0
+<6>[   10.395991] init: command 'chmod' r=0
+<6>[   10.399752] init: command 'chown' r=0
+<6>[   10.403598] init: command 'chmod' r=0
+<6>[   10.407363] init: command 'chown' r=-2
+<6>[   10.411202] init: command 'chmod' r=-2
+<6>[   10.415174] init: command 'mkdir' r=0
+<6>[   10.418915] init: processing action 0x2c900 (post-fs-data)
+<6>[   10.424532] init: command 'chown' r=0
+<6>[   10.428346] init: command 'chmod' r=0
+<6>[   10.432075] init: command 'restorecon' r=0
+<6>[   10.440711] init: command 'mkdir' r=0
+<6>[   10.444553] init: command 'copy' r=-1
+<6>[   10.448743] init: command 'chown' r=-2
+<6>[   10.452597] init: command 'chmod' r=-2
+<6>[   10.456485] init: command 'copy' r=-1
+<6>[   10.460238] init: command 'chown' r=-2
+<6>[   10.464088] init: command 'chmod' r=-2
+<6>[   10.467978] init: command 'write' r=-2
+<6>[   10.475963] init: command 'mkdir' r=0
+<6>[   10.480244] init: command 'mkdir' r=0
+<6>[   10.484134] init: command 'mkdir' r=0
+<6>[   10.487941] init: command 'mkdir' r=0
+<6>[   10.491742] init: command 'mkdir' r=0
+<6>[   10.495623] init: command 'mkdir' r=0
+<6>[   10.499438] init: command 'mkdir' r=0
+<6>[   10.503318] init: command 'mkdir' r=0
+<6>[   10.507178] init: command 'mkdir' r=0
+<6>[   10.510978] init: command 'mkdir' r=0
+<6>[   10.515157] init: command 'chmod' r=0
+<6>[   10.523337] init: command 'mkdir' r=0
+<6>[   10.527604] init: command 'mkdir' r=0
+<6>[   10.536804] init: command 'mkdir' r=0
+<6>[   10.544669] init: command 'mkdir' r=0
+<6>[   10.552439] init: command 'mkdir' r=0
+<6>[   10.560524] init: command 'mkdir' r=0
+<6>[   10.569432] init: command 'mkdir' r=0
+<6>[   10.578645] init: command 'mkdir' r=0
+<6>[   10.587185] init: command 'mkdir' r=0
+<6>[   10.591495] init: command 'mkdir' r=0
+<6>[   10.600029] init: command 'mkdir' r=0
+<6>[   10.607746] init: command 'mkdir' r=0
+<6>[   10.611511] init: command 'chown' r=0
+<6>[   10.615342] init: command 'chmod' r=0
+<6>[   10.619149] init: command 'mkdir' r=0
+<6>[   10.628424] init: command 'mkdir' r=0
+<6>[   10.632233] init: processing action 0x301f0 (post-fs-data)
+<6>[   10.637962] init: command 'chown' r=0
+<6>[   10.641821] init: command 'chmod' r=0
+<6>[   10.645631] init: command 'chown' r=0
+<6>[   10.649408] init: command 'chmod' r=0
+<6>[   10.653159] init: processing action 0x34400 (post-fs-data)
+<6>[   10.662945] init: command 'mkdir' r=0
+<6>[   10.666746] init: command 'mkdir' r=0
+<6>[   10.670614] init: command 'mkdir' r=0
+<6>[   10.674444] init: command 'mkdir' r=0
+<6>[   10.682348] init: command 'mkdir' r=0
+<6>[   10.686224] init: command 'mkdir' r=0
+<6>[   10.689982] init: command 'chown' r=0
+<6>[   10.693761] init: command 'chown' r=0
+<6>[   10.697576] init: command 'chown' r=0
+<6>[   10.701339] init: command 'chown' r=0
+<6>[   10.705155] init: command 'chown' r=0
+<6>[   10.708916] init: command 'setprop' r=0
+<6>[   10.712973] init: command 'mkdir' r=0
+<6>[   10.722100] init: command 'mkdir' r=0
+<6>[   10.725881] init: command 'setprop' r=0
+<6>[   10.734698] init: command 'chmod' r=-30
+<6>[   10.738667] init: command 'chown' r=0
+<6>[   10.743088] init: command 'mkdir' r=0
+<6>[   10.747396] init: command 'mkdir' r=0
+<6>[   10.751200] init: command 'mkdir' r=0
+<6>[   10.755021] init: command 'mkdir' r=0
+<6>[   10.764976] EXT4-fs (mmcblk0p8): mounted filesystem with ordered data mode. Opts: (null)
+<6>[   10.773175] init: command 'mount' r=0
+<6>[   10.777026] init: command 'chown' r=0
+<6>[   10.780805] init: command 'chown' r=-2
+<6>[   10.784673] init: command 'chown' r=-2
+<6>[   10.788551] init: processing action 0x38b60 (property_service_init)
+<6>[   10.830414] init: Created socket '/dev/socket/property_service' with mode '666', user '0', group '0'
+<6>[   10.839707] init: command 'property_service_init' r=0
+<6>[   10.844911] init: processing action 0x38ba8 (signal_init)
+<6>[   10.850422] init: command 'signal_init' r=0
+<6>[   10.854695] init: processing action 0x38bf0 (check_startup)
+<6>[   10.860416] init: command 'check_startup' r=0
+<6>[   10.864858] init: processing action 0x2cfe0 (boot)
+<6>[   10.870645] init: command 'ifup' r=0
+<6>[   10.874390] init: command 'hostname' r=0
+<6>[   10.878421] init: command 'domainname' r=0
+<6>[   10.882669] init: command 'setrlimit' r=0
+<6>[   10.886784] init: command 'write' r=0
+<6>[   10.890548] init: command 'write' r=0
+<6>[   10.894461] init: command 'chown' r=0
+<6>[   10.898225] init: command 'chmod' r=0
+<6>[   10.901994] init: command 'chown' r=0
+<6>[   10.905849] init: command 'chmod' r=0
+<6>[   10.909617] init: command 'write' r=0
+<6>[   10.913401] init: command 'write' r=0
+<6>[   10.917214] init: command 'chown' r=-2
+<6>[   10.921051] init: command 'chown' r=-2
+<6>[   10.924907] init: command 'chown' r=-2
+<6>[   10.928803] init: command 'chown' r=-2
+<6>[   10.932655] init: command 'chown' r=-2
+<6>[   10.936507] init: command 'chown' r=-2
+<6>[   10.940412] init: command 'chown' r=0
+<6>[   10.944195] init: command 'chown' r=0
+<6>[   10.947972] init: command 'chown' r=0
+<6>[   10.951794] init: command 'chown' r=0
+<6>[   10.955563] init: command 'chmod' r=0
+<6>[   10.959316] init: command 'chmod' r=0
+<6>[   10.963146] init: command 'chmod' r=0
+<6>[   10.966920] init: command 'chown' r=-2
+<6>[   10.970764] init: command 'chmod' r=-2
+<6>[   10.974688] init: command 'chown' r=-2
+<6>[   10.978533] init: command 'chmod' r=-2
+<6>[   10.982409] init: command 'chown' r=-2
+<6>[   10.986255] init: command 'chmod' r=-2
+<6>[   10.990159] init: command 'chown' r=-2
+<6>[   10.994024] init: command 'chmod' r=-2
+<6>[   10.997872] init: command 'chown' r=-2
+<6>[   11.001772] init: command 'chmod' r=-2
+<6>[   11.005635] init: command 'chown' r=-2
+<6>[   11.009481] init: command 'chmod' r=-2
+<6>[   11.013403] init: command 'chown' r=-2
+<6>[   11.017248] init: command 'chown' r=-2
+<6>[   11.021089] init: command 'chmod' r=-2
+<6>[   11.025014] init: command 'chown' r=-2
+<6>[   11.028860] init: command 'chmod' r=-2
+<6>[   11.032738] init: command 'chown' r=0
+<6>[   11.036555] init: command 'chmod' r=0
+<6>[   11.040325] init: command 'chown' r=-2
+<6>[   11.044195] init: command 'chown' r=-2
+<6>[   11.048096] init: command 'chown' r=-2
+<6>[   11.051941] init: command 'chown' r=-2
+<6>[   11.055806] init: command 'chown' r=-2
+<6>[   11.059707] init: command 'chown' r=-2
+<6>[   11.063580] init: command 'chown' r=-2
+<6>[   11.067424] init: command 'chown' r=-2
+<6>[   11.071321] init: command 'chown' r=-2
+<6>[   11.075181] init: command 'chown' r=-2
+<6>[   11.079022] init: command 'chown' r=-2
+<6>[   11.082948] init: command 'chown' r=-2
+<6>[   11.086791] init: command 'chown' r=-2
+<6>[   11.090632] init: command 'chown' r=-2
+<6>[   11.094553] init: command 'chown' r=-2
+<6>[   11.098396] init: command 'chown' r=-2
+<6>[   11.102237] init: command 'chown' r=-2
+<6>[   11.106158] init: command 'chown' r=-2
+<6>[   11.110020] init: command 'chown' r=-2
+<6>[   11.113898] init: command 'chown' r=0
+<6>[   11.117720] init: command 'chown' r=0
+<6>[   11.121482] init: command 'chown' r=0
+<6>[   11.125263] init: command 'chown' r=0
+<6>[   11.129085] init: command 'chown' r=0
+<6>[   11.132867] init: command 'chown' r=0
+<6>[   11.136648] init: command 'chown' r=0
+<6>[   11.140503] init: command 'setprop' r=0
+<6>[   11.144494] init: command 'setprop' r=0
+<6>[   11.148452] init: command 'setprop' r=0
+<6>[   11.152488] init: command 'setprop' r=0
+<6>[   11.156442] init: command 'setprop' r=0
+<6>[   11.160400] init: command 'setprop' r=0
+<6>[   11.164444] init: command 'setprop' r=0
+<6>[   11.168403] init: command 'setprop' r=0
+<6>[   11.172372] init: command 'setprop' r=0
+<6>[   11.176381] init: command 'setprop' r=0
+<6>[   11.180337] init: command 'setprop' r=0
+<6>[   11.184280] init: command 'setprop' r=0
+<5>[   11.188309] init: starting 'bootUpdate'
+<6>[   11.192497] init: command 'class_start' r=0
+<6>[   11.479127] init: command 'wait' r=0
+<3>[   11.482899] init: msg.name=ro.serialno uid=0, gid=0
+<6>[   11.487920] init: waitpid returned pid 113, status = 00000000
+<5>[   11.493811] init: process 'bootUpdate', pid 113 exited
+<6>[   11.499167] init: command 'write' r=0
+<5>[   11.502985] init: starting 'servicemanager'
+<5>[   11.507559] init: starting 'vold'
+<5>[   11.511293] init: starting 'uim'
+<6>[   11.511441] init: Created socket '/dev/socket/vold' with mode '660', user '0', group '1009'
+<5>[   11.523484] init: starting 'setup_fs'
+<5>[   11.527602] init: starting 'pm_service_check'
+<6>[   11.532388] init: command 'class_start' r=0
+<5>[   11.536731] init: starting 'netd'
+<5>[   11.540575] init: starting 'debuggerd'
+<6>[   11.543375] init: Created socket '/dev/socket/mdns' with mode '660', user '0', group '1000'
+<6>[   11.543449] init: Created socket '/dev/socket/dnsproxyd' with mode '660', user '0', group '3003'
+<6>[   11.543533] init: Created socket '/dev/socket/netd' with mode '660', user '0', group '1000'
+<5>[   11.570584] init: starting 'surfaceflinger'
+<5>[   11.575280] init: starting 'zygote'
+<5>[   11.579253] init: starting 'drm'
+<6>[   11.579434] init: Created socket '/dev/socket/zygote' with mode '660', user '0', group '1000'
+<6>[   11.582785] Bluetooth: Bluetooth Driver for TI WiLink - Version 1.0
+<5>[   11.598177] init: starting 'media'
+<5>[   11.602091] init: starting 'installd'
+<6>[   11.606481] init: Created socket '/dev/socket/installd' with mode '600', user '1000', group '1000'
+<5>[   11.636084] init: starting 'flash_recovery'
+<5>[   11.640803] init: starting 'keystore'
+<3>[   11.645218] init: cannot find '/system/bin/nvcpud', disabling 'nvcpud'
+<6>[   11.645451] init: Created socket '/dev/socket/keystore' with mode '666', user '0', group '0'
+<5>[   11.660627] init: starting 'tf_daemon'
+<6>[   11.664861] init: command 'class_start' r=0
+<3>[   11.669226] init: msg.name=sys.kh.production_mode uid=0, gid=0
+<6>[   11.675353] init: waitpid returned pid 117, status = 00000000
+<5>[   11.681224] init: process 'setup_fs', pid 117 exited
+<6>[   11.686520] init: waitpid returned pid 118, status = 0000ff00
+<5>[   11.692398] init: process 'pm_service_check', pid 118 exited
+<6>[   11.698302] init: processing action 0x34880 (boot)
+<6>[   11.703401] init: command 'mkdir' r=0
+<6>[   11.707336] init: command 'mkdir' r=0
+<6>[   11.711201] init: command 'chmod' r=0
+<6>[   11.715092] init: command 'chmod' r=0
+<6>[   11.718928] init: command 'chown' r=0
+<6>[   11.722802] init: command 'chown' r=0
+<6>[   11.726694] init: command 'chown' r=0
+<6>[   11.730591] init: command 'chown' r=0
+<6>[   11.734575] init: command 'chown' r=0
+<6>[   11.738402] init: command 'chown' r=0
+<6>[   11.742185] init: command 'chown' r=0
+<6>[   11.746213] init: command 'chown' r=0
+<6>[   11.750101] init: command 'write' r=0
+<6>[   11.754063] init: command 'write' r=0
+<6>[   11.756968] TF : INFO 00000002 15:00:53.740 P-0005 T-0014 TL OTF --------- SDrvCreate
+<6>[   11.765902] init: command 'write' r=0
+<6>[   11.769442] TF : INFO 00000003 15:00:53.753 P-000D T-001E NV RSA --------- SDrvCreate
+<6>[   11.777731] init: command 'write' r=0
+<6>[   11.787313] TF : INFO 00000004 15:00:53.770 ------ ------  --------------- Booted
+<6>[   11.834768] warning: `daemonsu' uses 32-bit capabilities (legacy support in use)
+<6>[   11.894955] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+<6>[   11.922517] init: command 'write' r=0
+<6>[   11.926395] init: waitpid returned pid 126, status = 00007f00
+<5>[   11.932246] init: process 'flash_recovery', pid 126 exited
+<6>[   11.935969] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+<6>[   11.943855] init: command 'write' r=0
+<6>[   11.947810] init: command 'write' r=0
+<6>[   11.952006] init: command 'write' r=0
+<6>[   11.956405] init: command 'write' r=0
+<6>[   11.960388] init: command 'write' r=0
+<6>[   11.964525] init: command 'write' r=0
+<6>[   11.999550] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+<6>[   12.029151] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+<6>[   12.082439] init: command 'write' r=0
+<3>[   12.088085] init: msg.name=supolicy.loaded uid=0, gid=0
+<6>[   12.093591] init: command 'write' r=0
+<6>[   12.097501] init: command 'write' r=0
+<6>[   12.103914] Tegra auto-hotplug enabled
+<6>[   12.107875] init: command 'write' r=0
+<6>[   12.111907] init: command 'write' r=0
+<6>[   12.116117] init: command 'chown' r=0
+<6>[   12.119994] init: command 'chown' r=0
+<6>[   12.123993] init: command 'write' r=0
+<6>[   12.128140] init: command 'write' r=-2
+<6>[   12.143740] init: command 'write' r=0
+<6>[   12.147590] init: waitpid returned pid 202, status = 00000000
+<3>[   12.153568] init: untracked pid 202 exited
+<6>[   12.157908] init: command 'chmod' r=0
+<6>[   12.162218] init: command 'write' r=0
+<6>[   12.166518] init: command 'write' r=0
+<6>[   12.170436] init: command 'write' r=0
+<6>[   12.174322] init: command 'chown' r=0
+<6>[   12.178195] init: command 'chmod' r=0
+<6>[   12.219117] Compat-wireless backport release: ol_R5.00.14
+<6>[   12.224617] Backport based on wl12xx.git ol_R5.00.14
+<6>[   12.229940] init: command 'insmod' r=0
+<6>[   12.377511] cfg80211: Calling CRDA to update world regulatory domain
+<6>[   12.385209] init: command 'insmod' r=0
+<5>[   12.503890] CPU2: shutdown
+<6>[   12.649883] cfg80211: World regulatory domain updated:
+<6>[   12.655546] cfg80211:     (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[   12.672326] cfg80211:     (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+<6>[   12.673511] init: command 'insmod' r=0
+<6>[   12.692425] cfg80211:     (2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+<6>[   12.700433] cfg80211:     (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+<6>[   12.708511] cfg80211:     (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+<6>[   12.716653] cfg80211:     (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+<6>[   12.786759] wl12xx: driver version: 
+<6>[   12.790483] wl12xx: compilation time: Mon Jul 15 12:41:03 2013
+<6>[   12.797863] init: command 'insmod' r=0
+<6>[   12.801913] init: command 'mkdir' r=0
+<6>[   12.805892] init: command 'chmod' r=0
+<6>[   12.809756] init: command 'chown' r=0
+<6>[   12.813619] (stc): st_register(9)
+<6>[   12.817002] (stc):  chnl_id list empty :9
+<6>[   12.821084] (stk) : st_kim_start
+<6>[   12.932346] (stk) :ldisc_install = 1
+<6>[   12.937046] tegra_uart tegra_uart.2: Setting clk_src clk_m
+<6>[   12.943271] tegra_uart tegra_uart.2: Setting clk_src clk_m
+<6>[   12.951084] tegra_uart tegra_uart.2: Setting clk_src clk_m
+<6>[   13.007274] tegra_uart tegra_uart.2: Setting clk_src pll_p
+<6>[   13.013243] (stc): st_tty_open
+<6>[   13.016427] (stk) :line discipline installed
+<6>[   13.052524] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[   13.074143] nvavp nvavp: read firmware from 'nvavp_os_0ff00000.bin' (15516 bytes)
+<6>[   13.095076] nvavp nvavp: entry=00000094 control=00004a80 debug=00005280 size=15492
+<6>[   13.102928] nvavp nvavp: AVP os at vaddr=f0e00000 paddr=ff00000 reset_addr=0ff00094
+<6>[   13.114639] nvavp nvavp: read ucode firmware from 'nvavp_vid_ucode.bin' (43464 bytes)
+<6>[   13.273433] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[   13.279765] nvavp nvavp: AVP os at vaddr=f0e00000 paddr=ff00000 reset_addr=0ff00094
+<6>[   13.652137] (stc): add_channel_to_table: id 9
+<6>[   13.659931] (stc): remove_channel_from_table: id 9
+<6>[   13.664882] (stc):  all chnl_ids unregistered
+<6>[   13.669314] (stk) :ldisc_install = 0
+<6>[   13.673231] (stc): st_tty_close
+<6>[   13.682013] init: command 'chmod' r=0
+<3>[   13.685923] init: msg.name=persist.sys.NV_DISPXRES uid=1000, gid=1003
+<6>[   13.910154] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[   13.916594] nvavp nvavp: AVP os at vaddr=f0e00000 paddr=ff00000 reset_addr=0ff00094
+<6>[   14.073320] init: command 'symlink' r=0
+<3>[   14.077418] init: msg.name=persist.sys.NV_DISPYRES uid=1000, gid=1003
+<6>[   14.084633] init: processing action 0x36080 (boot)
+<6>[   14.089548] init: command 'setprop' r=0
+<3>[   14.093546] init: msg.name=sys.max_texture_size uid=1000, gid=1003
+<6>[   14.099879] init: command 'setprop' r=0
+<3>[   14.103844] init: msg.name=service.bootanim.exit uid=1000, gid=1003
+<6>[   14.110295] init: processing action 0x375a8 (boot)
+<6>[   14.115312] init: command 'write' r=0
+<3>[   14.119139] init: msg.name=ctl.start uid=1000, gid=1003
+<5>[   14.124841] init: starting 'bootanim'
+<6>[   14.129098] init: command 'write' r=0
+<6>[   14.133023] init: processing action 0x386c0 (boot)
+<6>[   14.137975] init: command 'chmod' r=0
+<6>[   14.141755] init: command 'chown' r=0
+<6>[   14.145622] init: command 'chown' r=0
+<6>[   14.149388] init: command 'chown' r=0
+<6>[   14.153175] init: command 'chown' r=0
+<6>[   14.159267] init: command 'chown' r=0
+<6>[   14.163126] init: command 'chown' r=0
+<6>[   14.167079] init: command 'chown' r=0
+<6>[   14.170918] init: command 'chown' r=0
+<6>[   14.174801] init: command 'chown' r=-2
+<6>[   14.178707] init: command 'chown' r=0
+<6>[   14.183999] init: command 'chmod' r=0
+<6>[   14.187759] init: command 'chmod' r=0
+<6>[   14.191521] init: command 'chmod' r=0
+<6>[   14.195375] init: command 'chmod' r=0
+<6>[   14.199142] init: command 'chmod' r=0
+<6>[   14.202923] init: command 'chmod' r=0
+<6>[   14.206741] init: command 'chmod' r=0
+<6>[   14.210632] init: command 'chmod' r=0
+<6>[   14.214519] init: command 'chmod' r=-2
+<6>[   14.218417] init: command 'chmod' r=0
+<6>[   14.282362] init: command 'chown' r=0
+<6>[   14.332371] init: command 'chmod' r=0
+<6>[   14.332413] init: processing action 0x38c38 (queue_property_triggers)
+<6>[   14.332507] init: command 'queue_property_triggers' r=0
+<6>[   14.332520] init: processing action 0x2dd78 (nonencrypted)
+<5>[   14.332592] init: starting 'sdcard'
+<6>[   14.332895] init: command 'class_start' r=0
+<6>[   14.332918] init: processing action 0x30be8 (property:persist.sys.usb.config=*)
+<6>[   14.333024] init: command 'setprop' r=0
+<6>[   14.333117] init: command 'setprop' r=0
+<6>[   14.333133] init: processing action 0x35140 (property:persist.akm8975.akmd=1)
+<5>[   14.333207] init: starting 'akmd'
+<6>[   14.333440] init: command 'start' r=0
+<6>[   14.333510] init: processing action 0x35f88 (property:ro.boot.module_3g_config=1)
+<5>[   14.333573] init: starting 'ril-daemon'
+<6>[   14.333837] init: command 'start' r=0
+<6>[   14.333882] init: processing action 0x364e8 (property:persist.wlan.ti.calibrated=1)
+<6>[   14.334140] init: Created socket '/dev/socket/rild-debug' with mode '660', user '1001', group '1000'
+<6>[   14.334203] init: Created socket '/dev/socket/rild' with mode '660', user '0', group '1001'
+<5>[   14.513244] CPU1: shutdown
+<4>[   14.532818] wl1271_init: register sdio driver
+<4>[   14.583107] mmc1: card claims to support voltages below the defined range. These will be ignored.
+<4>[   14.604721] mmc1: queuing unknown CIS tuple 0x91 (3 bytes)
+<6>[   14.611804] mmc1: new high speed SDIO card at address 0001
+<4>[   15.038512] cfg80211: wext will not work because kernel was compiled with CONFIG_WIRELESS_EXT=n. Tools using wext interface, like iwconfig will not work.
+<6>[   15.072612] wl12xx: loaded
+<6>[   15.075968] init: command 'insmod' r=0
+<5>[   15.082499] init: starting 'add_p2p_iface'
+<6>[   15.086931] init: command 'start' r=0
+<6>[   15.090747] init: processing action 0x302c0 (property:sys.usb.config=none)
+<6>[   15.103283] init: command 'stop' r=0
+<3>[   15.116802] android_usb: already disabled
+<6>[   15.132421] init: command 'write' r=0
+<4>[   15.132848] CPU1: Booted secondary processor
+<6>[   15.142283] Switched to NOHz mode on CPU #1
+<6>[   15.146687] init: waitpid returned pid 426, status = 00000000
+<5>[   15.152523] init: process 'add_p2p_iface', pid 426 exited
+<6>[   15.158363] init: command 'write' r=0
+<6>[   15.162187] init: command 'setprop' r=0
+<6>[   15.166196] init: processing action 0x37748 (property:sys.usb.config=mtp,adb)
+<3>[   15.173495] android_usb: already disabled
+<6>[   15.177627] init: command 'write' r=0
+<6>[   15.181435] init: command 'write' r=0
+<6>[   15.185302] init: command 'write' r=0
+<6>[   15.189239] init: command 'write' r=0
+<6>[   15.193255] init: command 'write' r=0
+<5>[   15.197050] init: starting 'adbd'
+<6>[   15.200792] init: command 'start' r=0
+<6>[   15.204979] init: Created socket '/dev/socket/adbd' with mode '660', user '1000', group '1000'
+<4>[   15.212292] battery_poll_timer_func
+<6>[   15.217389] init: command 'setprop' r=0
+<4>[   15.224042] CPU2: Booted secondary processor
+<6>[   15.232286] Switched to NOHz mode on CPU #2
+<6>[   15.232410] adb_open(adbd)
+<6>[   15.232420] mtp_bind_config
+<6>[   15.235520] adb_bind_config
+<4>[   15.252277] bq24160_timer_function poll
+<4>[   15.280142] get_online_state=0x40
+<4>[   15.337619] reading the ac status 3860000
+<6>[   15.448780] android_work: did not send uevent (0 0   (null))
+<6>[   15.501207] android_usb gadget: high speed config #1: android
+<6>[   15.515344] android_work: sent uevent USB_STATE=CONFIGURED
+<4>[   15.580759] count_time=3
+<5>[   17.224291] CPU2: shutdown
+<4>[   18.958087] tegra_asoc_utils_set_rate ret Val: 0
+<5>[   19.223324] CPU1: shutdown
+<5>[   23.124700] CPU3: shutdown
+<4>[   25.232274] battery_poll_timer_func
+<7>[   25.332916] cpu-tegra: force EDP limit 1200000 kHz
+<4>[   25.351126] CPU1: Booted secondary processor
+<6>[   25.362278] Switched to NOHz mode on CPU #1
+<4>[   25.375343] reading the ac status 3860000
+<4>[   25.583635] count_time=4
+<5>[   27.333244] CPU1: shutdown
+<4>[   35.252289] battery_poll_timer_func
+<4>[   35.257883] reading the ac status 3860000
+<7>[   39.536343] cpu-tegra: force EDP limit 1200000 kHz
+<4>[   39.551670] CPU1: Booted secondary processor
+<6>[   39.560943] Switched to NOHz mode on CPU #1
+<5>[   41.537934] CPU1: shutdown
+<4>[   45.272278] battery_poll_timer_func
+<4>[   45.282368] reading the ac status 3860000
+<4>[   45.293208] count_time=1
+<4>[   55.292279] battery_poll_timer_func
+<4>[   55.302370] reading the ac status 3860000
+<4>[   65.312529] battery_poll_timer_func
+<4>[   65.320676] reading the ac status 3860000
+<4>[   75.332393] battery_poll_timer_func
+<4>[   75.336874] reading the ac status 3860000
+<7>[   78.716260] cpu-tegra: force EDP limit 1200000 kHz
+<4>[   78.731189] CPU1: Booted secondary processor
+<6>[   78.742300] Switched to NOHz mode on CPU #1
+<5>[   80.724501] CPU1: shutdown
+<4>[   83.582772] get_online_state=0x40
+<4>[   83.586257] reading the ac status 3860000
+<6>[   83.595009] request_suspend_state: wakeup (3->0) at 82982751003 (2018-08-28 15:02:11.942591001 UTC)
+<3>[   84.049830] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[   84.140512] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<7>[   84.226399] cpu-tegra: force EDP limit 1200000 kHz
+<4>[   84.231426] CPU1: Booted secondary processor
+<6>[   84.242286] Switched to NOHz mode on CPU #1
+<3>[   84.785120] init: msg.name=net.hostname uid=1000, gid=1000
+<3>[   84.813531] init: msg.name=wlan.driver.status uid=1000, gid=1000
+<6>[   84.819797] init: processing action 0x35bc0 (property:wlan.driver.status=ok)
+<6>[   84.827500] init: command 'chown' r=-2
+<3>[   84.832678] init: msg.name=ctl.stop uid=1000, gid=1000
+<3>[   84.846818] init: msg.name=ctl.start uid=1000, gid=1000
+<5>[   84.852374] init: starting 'p2p_supplicant'
+<6>[   84.857315] init: Created socket '/dev/socket/wpa_wlan0' with mode '660', user '1010', group '1010'
+<6>[   85.083752] acc_open
+<6>[   85.086072] acc_release
+<4>[   85.352273] battery_poll_timer_func
+<4>[   85.356154] reading the ac status 3860000
+<4>[   85.362519] get_online_state=0x40
+<4>[   85.366002] reading the ac status 3860000
+<6>[   85.792054] wl12xx: state: 0
+<5>[   86.225325] CPU1: shutdown
+<6>[   86.345838] wl12xx: firmware booted (Rev 7.3.9.0.120)
+<6>[   86.366029] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<3>[   86.386316] init: msg.name=persist.sys.profiler_ms uid=1000, gid=1000
+<6>[   86.417634] wl12xx: state: 2
+<6>[   86.428530] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+<7>[   86.526990] cpu-tegra: force EDP limit 1200000 kHz
+<4>[   86.532067] CPU1: Booted secondary processor
+<6>[   86.542339] Switched to NOHz mode on CPU #1
+<4>[   86.625700] CPU2: Booted secondary processor
+<6>[   86.632293] Switched to NOHz mode on CPU #2
+<4>[   86.732957] CPU3: Booted secondary processor
+<6>[   86.742300] Switched to NOHz mode on CPU #3
+<3>[   86.743246] init: msg.name=net.qtaguid_enabled uid=1000, gid=1000
+<6>[   86.829772] cfg80211: Calling CRDA for country: RU
+<6>[   86.877926] cfg80211: Regulatory domain changed to country: RU
+<6>[   86.883954] cfg80211:     (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[   86.892471] cfg80211:     (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm)
+<6>[   86.900194] cfg80211:     (5735000 KHz - 5835000 KHz @ 20000 KHz), (N/A, 3000 mBm)
+<7>[   87.123510] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   87.139044] wlan0: authenticated
+<7>[   87.143187] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   87.153107] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[   87.160919] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[   87.265574] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<7>[   87.552888] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   87.563085] wlan0: authenticated
+<7>[   87.567553] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   87.579986] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[   87.588060] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[   87.737748] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<7>[   88.452521] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   88.462110] wlan0: authenticated
+<7>[   88.466177] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   88.478536] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[   88.492187] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[   88.617398] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[   88.746207] CPU2: shutdown
+<6>[   89.072419] usb 1-1: new high speed USB device number 2 using tegra-ehci
+<6>[   89.113951] usb 1-1: New USB device found, idVendor=0e8d, idProduct=00a2
+<6>[   89.121301] usb 1-1: New USB device strings: Mfr=4, Product=5, SerialNumber=0
+<6>[   89.130790] usb 1-1: Product: MT6229 
+<6>[   89.134760] usb 1-1: Manufacturer: MediaTek Inc
+<4>[   89.148264] CPU2: Booted secondary processor
+<6>[   89.162354] Switched to NOHz mode on CPU #2
+<6>[   89.167513] cdc_acm 1-1:1.1: ttyACM0: USB ACM device
+<6>[   89.177310] option 1-1:1.2: GSM modem (1-port) converter detected
+<6>[   89.185159] usb 1-1: GSM modem (1-port) converter now attached to ttyUSB0
+<6>[   89.527714] mtp_open
+<7>[   89.852949] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   89.864343] wlan0: authenticated
+<7>[   89.868306] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   89.885188] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[   89.896649] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[   89.970227] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[   91.564418] CPU2: shutdown
+<3>[   91.610125] init: msg.name=ril.unap_state uid=1001, gid=1001
+<3>[   91.616150] init: msg.name=ril.unap_path uid=1001, gid=1001
+<3>[   91.626934] init: msg.name=ril.unap_state uid=1001, gid=1001
+<3>[   91.634899] init: msg.name=ril.unap_path uid=1001, gid=1001
+<5>[   93.565389] CPU3: shutdown
+<4>[   93.770313] CPU2: Booted secondary processor
+<6>[   93.782326] Switched to NOHz mode on CPU #2
+<4>[   93.864214] CPU3: Booted secondary processor
+<6>[   93.872305] Switched to NOHz mode on CPU #3
+<7>[   95.242654] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   95.253384] wlan0: authenticated
+<7>[   95.258190] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[   95.269623] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[   95.277910] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<4>[   95.373266] battery_poll_timer_func
+<4>[   95.377523] reading the ac status 3860000
+<7>[   95.393817] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<4>[   95.405321] get_online_state=0x40
+<4>[   95.409107] reading the ac status 3860000
+<3>[   95.684533] init: msg.name=gsm.version.ril-impl uid=1001, gid=1001
+<5>[   97.298810] CPU3: shutdown
+<4>[   97.493435] CPU3: Booted secondary processor
+<6>[   97.502363] Switched to NOHz mode on CPU #3
+<3>[   97.604574] init: msg.name=gsm.current.phone-type uid=1001, gid=1001
+<3>[   97.626949] init: msg.name=gsm.sim.state uid=1001, gid=1001
+<3>[   98.889611] init: msg.name=gsm.operator.alpha uid=1001, gid=1001
+<3>[   98.902706] init: msg.name=gsm.operator.numeric uid=1001, gid=1001
+<3>[   98.910311] init: msg.name=gsm.operator.iso-country uid=1001, gid=1001
+<3>[   98.918676] init: msg.name=gsm.operator.isroaming uid=1001, gid=1001
+<5>[   99.493530] CPU1: shutdown
+<4>[  100.696090] CPU1: Booted secondary processor
+<6>[  100.702304] Switched to NOHz mode on CPU #1
+<5>[  102.694516] CPU1: shutdown
+<4>[  104.511911] CPU1: Booted secondary processor
+<6>[  104.522404] Switched to NOHz mode on CPU #1
+<3>[  104.951912] init: msg.name=sys.boot_completed uid=1000, gid=1000
+<3>[  104.969941] init: msg.name=dev.bootcomplete uid=1000, gid=1000
+<3>[  105.190919] init: msg.name=service.bootanim.exit uid=1000, gid=1003
+<4>[  105.392312] battery_poll_timer_func
+<4>[  105.405320] reading the ac status 3860000
+<4>[  105.412811] count_time=2
+<7>[  105.642585] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  105.656723] wlan0: authenticated
+<7>[  105.661305] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  105.673382] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  105.681655] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  105.818154] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<4>[  105.990407] get_online_state=0x40
+<4>[  105.994748] reading the ac status 3860000
+<4>[  106.000579] count_time=3
+<3>[  106.171863] init: msg.name=service.bootanim.exit uid=1003, gid=1003
+<3>[  106.178406] init: sys_prop: permission denied uid:1003  name:service.bootanim.exit
+<5>[  106.493659] CPU1: shutdown
+<3>[  107.145360] init: msg.name=gsm.version.baseband uid=1001, gid=1001
+<6>[  107.285824] init: waitpid returned pid 408, status = 00000000
+<5>[  107.292011] init: process 'bootanim', pid 408 exited
+<3>[  107.820547] init: msg.name=gsm.operator.alpha uid=1001, gid=1001
+<3>[  107.829519] init: msg.name=gsm.operator.numeric uid=1001, gid=1001
+<3>[  107.838864] init: msg.name=gsm.operator.iso-country uid=1001, gid=1001
+<3>[  107.846686] init: msg.name=gsm.operator.isroaming uid=1001, gid=1001
+<3>[  107.860832] init: msg.name=gsm.sim.state uid=1001, gid=1001
+<5>[  108.514531] CPU3: shutdown
+<4>[  108.818635] CPU1: Booted secondary processor
+<6>[  108.832228] Switched to NOHz mode on CPU #1
+<4>[  109.418505] CPU3: Booted secondary processor
+<6>[  109.432335] Switched to NOHz mode on CPU #3
+<5>[  111.415300] CPU1: shutdown
+<4>[  111.518510] CPU1: Booted secondary processor
+<6>[  111.532463] Switched to NOHz mode on CPU #1
+<3>[  111.553745] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  111.877121] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  112.299958] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  112.480732] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  112.628191] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<5>[  113.923909] CPU2: shutdown
+<4>[  114.149794] CPU2: Booted secondary processor
+<6>[  114.162297] Switched to NOHz mode on CPU #2
+<4>[  115.412911] battery_poll_timer_func
+<4>[  115.419093] reading the ac status 3860000
+<4>[  115.425200] get_online_state=0x40
+<4>[  115.428735] reading the ac status 3860000
+<7>[  116.022577] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  116.030801] wlan0: authenticated
+<7>[  116.035248] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  116.045673] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  116.053657] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  116.123710] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  116.190349] CPU1: shutdown
+<4>[  116.692628] CPU1: Booted secondary processor
+<6>[  116.702317] Switched to NOHz mode on CPU #1
+<5>[  119.193765] CPU1: shutdown
+<4>[  119.398309] CPU1: Booted secondary processor
+<6>[  119.412318] Switched to NOHz mode on CPU #1
+<4>[  119.893371] kai_panel_prepoweroff
+<4>[  119.903516] release the usbd.emc for usb
+<3>[  119.903528] kai_panel_disable:====================>EXE
+<4>[  119.904087] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<6>[  120.279368] request_suspend_state: sleep (0->3) at 119667080003 (2018-08-28 15:02:48.626917001 UTC)
+<4>[  120.288839] >>cur otg is xpad and is_xpad_otg = 0
+<4>[  120.352890] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<6>[  120.735200] init: waitpid returned pid 1062, status = 00001600
+<3>[  120.741179] init: untracked pid 1062 exited
+<6>[  121.760619] request_suspend_state: wakeup (3->0) at 121148349003 (2018-08-28 15:02:50.108188001 UTC)
+<4>[  121.872409] hold the usbd.emc for usb
+<3>[  121.876212] kai_panel_enable:====================>EXE
+<4>[  121.884326] kai_panel_postpoweron
+<4>[  122.147516] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<4>[  122.155213] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<5>[  122.507880] CPU1: shutdown
+<4>[  122.607875] CPU1: Booted secondary processor
+<6>[  122.622320] Switched to NOHz mode on CPU #1
+<5>[  125.114387] CPU3: shutdown
+<4>[  125.207850] kai_panel_prepoweroff
+<4>[  125.218025] release the usbd.emc for usb
+<3>[  125.218039] kai_panel_disable:====================>EXE
+<4>[  125.218579] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<6>[  125.295156] request_suspend_state: sleep (0->3) at 124682882003 (2018-08-28 15:02:53.642720001 UTC)
+<4>[  125.304448] >>cur otg is xpad and is_xpad_otg = 0
+<4>[  125.317974] CPU3: Booted secondary processor
+<6>[  125.332319] Switched to NOHz mode on CPU #3
+<4>[  125.363822] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<4>[  125.433003] battery_poll_timer_func
+<4>[  125.436847] reading the ac status 3860000
+<4>[  125.452154] get_online_state=0x40
+<4>[  125.456020] reading the ac status 3860000
+<7>[  126.436961] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  126.448647] wlan0: authenticated
+<7>[  126.452743] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  126.468302] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  126.476817] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  126.556808] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<6>[  126.955698] kionix_accel 0-000f: kionix_accel_enable: waiting for resume
+<5>[  127.355493] CPU1: shutdown
+<4>[  127.760194] CPU1: Booted secondary processor
+<6>[  127.772346] Switched to NOHz mode on CPU #1
+<5>[  130.563876] CPU3: shutdown
+<3>[  131.952345] kionix_accel 0-000f: kionix_accel_enable: timeout waiting for resume
+<5>[  132.564469] CPU1: shutdown
+<6>[  133.135720] binder: 942:951 refcount change on invalid ref 40
+<4>[  133.166806] CPU1: Booted secondary processor
+<6>[  133.172348] Switched to NOHz mode on CPU #1
+<6>[  133.224049] binder: 942:1304 refcount change on invalid ref 40
+<6>[  133.230859] binder: 942:1304 refcount change on invalid ref 40
+<3>[  133.238822] binder: transaction release 29586 bad handle 40
+<4>[  133.363354] CPU3: Booted secondary processor
+<6>[  133.372325] Switched to NOHz mode on CPU #3
+<4>[  135.452330] battery_poll_timer_func
+<4>[  135.456840] reading the ac status 3860000
+<4>[  135.467150] get_online_state=0x40
+<4>[  135.471895] reading the ac status 3860000
+<5>[  135.863379] CPU2: shutdown
+<4>[  136.265975] CPU2: Booted secondary processor
+<6>[  136.272599] Switched to NOHz mode on CPU #2
+<7>[  136.766533] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  136.782215] wlan0: authenticated
+<7>[  136.786570] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  136.799709] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  136.807925] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  136.921923] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  138.266406] CPU3: shutdown
+<4>[  139.572595] CPU3: Booted secondary processor
+<6>[  139.582324] Switched to NOHz mode on CPU #3
+<5>[  144.463724] CPU1: shutdown
+<4>[  144.663046] CPU1: Booted secondary processor
+<6>[  144.672312] Switched to NOHz mode on CPU #1
+<4>[  145.472291] battery_poll_timer_func
+<4>[  145.476090] reading the ac status 3860000
+<4>[  145.480910] get_online_state=0x40
+<4>[  145.484510] reading the ac status 3860000
+<5>[  146.863460] CPU2: shutdown
+<4>[  147.063655] CPU2: Booted secondary processor
+<6>[  147.072346] Switched to NOHz mode on CPU #2
+<7>[  147.152567] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  147.164257] wlan0: authenticated
+<7>[  147.168149] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  147.181111] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  147.190770] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  147.299179] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  149.065443] CPU1: shutdown
+<3>[  149.345523] init: msg.name=ro.runtime.firstboot uid=1000, gid=1000
+<5>[  151.083392] CPU3: shutdown
+<4>[  152.057509] device_open: open_from_Android
+<4>[  153.492857] CPU1: Booted secondary processor
+<6>[  153.502278] Switched to NOHz mode on CPU #1
+<4>[  153.593148] CPU3: Booted secondary processor
+<6>[  153.602309] Switched to NOHz mode on CPU #3
+<4>[  155.492323] battery_poll_timer_func
+<4>[  155.496251] reading the ac status 3860000
+<4>[  155.501346] get_online_state=0x40
+<4>[  155.505091] reading the ac status 3860000
+<5>[  155.993316] CPU1: shutdown
+<4>[  156.693065] CPU1: Booted secondary processor
+<6>[  156.702332] Switched to NOHz mode on CPU #1
+<7>[  157.532611] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  157.541002] wlan0: authenticated
+<7>[  157.622566] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  157.632780] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  157.640707] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  157.748042] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  161.183337] CPU1: shutdown
+<4>[  161.782989] CPU1: Booted secondary processor
+<6>[  161.792322] Switched to NOHz mode on CPU #1
+<5>[  164.783483] CPU1: shutdown
+<4>[  165.083336] CPU1: Booted secondary processor
+<6>[  165.092311] Switched to NOHz mode on CPU #1
+<4>[  165.514012] battery_poll_timer_func
+<4>[  165.518013] reading the ac status 3860000
+<4>[  165.524721] count_time=4
+<4>[  165.540366] get_online_state=0x40
+<4>[  165.551866] reading the ac status 3860000
+<4>[  165.558729] count_time=1
+<5>[  167.493715] CPU1: shutdown
+<7>[  167.942696] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  167.950841] wlan0: authenticated
+<7>[  167.954654] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  167.964495] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  167.972438] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  168.118294] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<4>[  168.293011] CPU1: Booted secondary processor
+<6>[  168.301811] Switched to NOHz mode on CPU #1
+<5>[  172.808571] CPU3: shutdown
+<4>[  173.003077] CPU3: Booted secondary processor
+<6>[  173.012317] Switched to NOHz mode on CPU #3
+<5>[  175.006904] CPU1: shutdown
+<4>[  175.403046] CPU1: Booted secondary processor
+<6>[  175.412334] Switched to NOHz mode on CPU #1
+<4>[  175.534326] battery_poll_timer_func
+<4>[  175.538813] reading the ac status 3860000
+<4>[  175.550299] get_online_state=0x40
+<4>[  175.553939] reading the ac status 3860000
+<5>[  177.403580] CPU1: shutdown
+<7>[  178.332720] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  178.340932] wlan0: authenticated
+<7>[  178.344703] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  178.356038] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  178.369169] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  178.460743] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<4>[  178.703007] CPU1: Booted secondary processor
+<6>[  178.712309] Switched to NOHz mode on CPU #1
+<5>[  180.724882] CPU2: shutdown
+<4>[  180.833258] CPU2: Booted secondary processor
+<6>[  180.842324] Switched to NOHz mode on CPU #2
+<6>[  181.268483] request_suspend_state: wakeup (3->0) at 180656203003 (2018-08-28 15:03:49.616041001 UTC)
+<4>[  181.402592] hold the usbd.emc for usb
+<3>[  181.406382] kai_panel_enable:====================>EXE
+<4>[  181.415299] kai_panel_postpoweron
+<4>[  181.679181] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<4>[  181.728904] tegra_pwm tegra_pwm.0: pwm_disable called on disabled PWM
+<5>[  183.033406] CPU1: shutdown
+<4>[  183.476665] CPU1: Booted secondary processor
+<6>[  183.482313] Switched to NOHz mode on CPU #1
+<4>[  185.560170] battery_poll_timer_func
+<4>[  185.574377] reading the ac status 3860000
+<4>[  185.589163] get_online_state=0x40
+<4>[  185.594537] reading the ac status 3860000
+<3>[  185.955552] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  186.045752] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  186.116902] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<6>[  187.713928] tegra_camera tegra_camera: tegra_camera_open
+<6>[  187.787883] mt9p111 sensor_open
+<3>[  187.791119] kai_t8ev5_power_on:==========>EXE
+<3>[  187.821562] ######################ioctl YUV_white balance EXE 1!!!!!!!!
+<3>[  187.832028] ######################ioctl YUV_white balance EXE 2!!!!!!!!
+<3>[  187.838801] ######################YUV_Whitebalance_Auto EXE!!!!!!!!
+<6>[  187.845154] mt9p111 sensor_write_table 
+<3>[  187.851914] ######################white balance ioctl EXE ret  = 0
+<5>[  187.923562] CPU3: shutdown
+<4>[  188.026261] CPU3: Booted secondary processor
+<6>[  188.032308] Switched to NOHz mode on CPU #3
+<3>[  188.162423] kai_t8ev5_power_off:==========>EXE
+<6>[  188.168634] tegra_camera tegra_camera: tegra_camera_release
+<7>[  188.663197] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  188.672410] wlan0: authenticated
+<7>[  188.763569] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  188.774009] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  188.782218] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  188.856356] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<6>[  189.055439] tegra_camera tegra_camera: tegra_camera_open
+<3>[  189.063813] gc0328 sensor_open
+<3>[  189.067064] kai_gc0308_power_on:==========>EXE
+<3>[  189.180234] gc0328 sensor_release
+<3>[  189.183686] kai_gc0308_power_off:==========>EXE
+<6>[  189.188695] tegra_camera tegra_camera: tegra_camera_release
+<5>[  190.334603] CPU1: shutdown
+<4>[  191.033448] CPU1: Booted secondary processor
+<6>[  191.042323] Switched to NOHz mode on CPU #1
+<5>[  193.055974] CPU1: shutdown
+<4>[  194.180637] CPU1: Booted secondary processor
+<6>[  194.192332] Switched to NOHz mode on CPU #1
+<4>[  195.572338] battery_poll_timer_func
+<4>[  195.583037] reading the ac status 3860000
+<4>[  195.593215] get_online_state=0x40
+<4>[  195.599540] reading the ac status 3860000
+<5>[  197.373840] CPU2: shutdown
+<4>[  197.477695] CPU2: Booted secondary processor
+<6>[  197.482418] Switched to NOHz mode on CPU #2
+<7>[  199.102531] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  199.111427] wlan0: authenticated
+<7>[  199.115544] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  199.125897] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  199.134511] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  199.198807] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  199.973566] CPU2: shutdown
+<4>[  200.373417] CPU2: Booted secondary processor
+<6>[  200.382328] Switched to NOHz mode on CPU #2
+<3>[  201.771214] binder: release proc 676, transaction 75803, not freed
+<5>[  202.383474] CPU2: shutdown
+<4>[  202.688637] CPU2: Booted secondary processor
+<6>[  202.702333] Switched to NOHz mode on CPU #2
+<6>[  205.130794] init: waitpid returned pid 1066, status = 00000000
+<3>[  205.136931] init: untracked pid 1066 exited
+<4>[  205.592326] battery_poll_timer_func
+<4>[  205.606969] reading the ac status 3860000
+<4>[  205.621367] get_online_state=0x40
+<4>[  205.625819] reading the ac status 3860000
+<7>[  205.863107] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  205.874871] wlan0: authenticated
+<7>[  205.952570] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  205.963195] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  205.971042] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  206.061787] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  206.313444] CPU1: shutdown
+<4>[  206.529462] CPU1: Booted secondary processor
+<6>[  206.542331] Switched to NOHz mode on CPU #1
+<5>[  211.023469] CPU1: shutdown
+<4>[  211.338342] CPU1: Booted secondary processor
+<6>[  211.352330] Switched to NOHz mode on CPU #1
+<5>[  214.123583] CPU1: shutdown
+<4>[  215.223526] CPU1: Booted secondary processor
+<6>[  215.232394] Switched to NOHz mode on CPU #1
+<4>[  215.612337] battery_poll_timer_func
+<4>[  215.619579] reading the ac status 3860000
+<4>[  215.626277] get_online_state=0x40
+<4>[  215.629941] reading the ac status 3860000
+<7>[  216.252460] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  216.261876] wlan0: authenticated
+<7>[  216.265836] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  216.275656] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  216.283615] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  216.347701] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  219.823671] CPU1: shutdown
+<4>[  219.924633] CPU1: Booted secondary processor
+<6>[  219.932322] Switched to NOHz mode on CPU #1
+<5>[  223.334089] CPU2: shutdown
+<4>[  224.333485] CPU2: Booted secondary processor
+<6>[  224.342341] Switched to NOHz mode on CPU #2
+<3>[  224.758241] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  224.937659] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<3>[  225.086281] init: msg.name=media.tegra.out.channel.map uid=1013, gid=1005
+<6>[  225.258068] tegra_camera tegra_camera: tegra_camera_open
+<6>[  225.329986] mt9p111 sensor_open
+<3>[  225.339402] kai_t8ev5_power_on:==========>EXE
+<3>[  225.437785] ######################ioctl YUV_white balance EXE 1!!!!!!!!
+<3>[  225.447127] ######################ioctl YUV_white balance EXE 2!!!!!!!!
+<3>[  225.455151] ######################YUV_Whitebalance_Auto EXE!!!!!!!!
+<6>[  225.461979] mt9p111 sensor_write_table 
+<3>[  225.476254] ######################white balance ioctl EXE ret  = 0
+<4>[  225.633133] battery_poll_timer_func
+<4>[  225.643108] reading the ac status 3860000
+<4>[  225.650017] count_time=2
+<4>[  225.655265] get_online_state=0x40
+<4>[  225.659881] reading the ac status 3860000
+<4>[  225.665397] count_time=3
+<3>[  225.825907] kai_t8ev5_power_off:==========>EXE
+<6>[  225.845720] tegra_camera tegra_camera: tegra_camera_release
+<7>[  226.703589] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  226.713402] wlan0: authenticated
+<7>[  226.792414] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  226.802535] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  226.810426] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  226.917903] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  227.033460] CPU1: shutdown
+<4>[  227.633048] CPU1: Booted secondary processor
+<6>[  227.642320] Switched to NOHz mode on CPU #1
+<6>[  228.604509] tegra_camera tegra_camera: tegra_camera_open
+<3>[  228.611268] gc0328 sensor_open
+<3>[  228.615030] kai_gc0308_power_on:==========>EXE
+<3>[  228.695225] gc0328 sensor_release
+<3>[  228.698668] kai_gc0308_power_off:==========>EXE
+<6>[  228.703899] tegra_camera tegra_camera: tegra_camera_release
+<5>[  229.657098] CPU1: shutdown
+<4>[  230.053049] CPU1: Booted secondary processor
+<6>[  230.062327] Switched to NOHz mode on CPU #1
+<5>[  232.053474] CPU1: shutdown
+<4>[  233.453566] CPU1: Booted secondary processor
+<6>[  233.462303] Switched to NOHz mode on CPU #1
+<5>[  235.453948] CPU1: shutdown
+<4>[  235.653095] battery_poll_timer_func
+<4>[  235.660196] reading the ac status 3860000
+<4>[  235.667561] CPU1: Booted secondary processor
+<6>[  235.672419] Switched to NOHz mode on CPU #1
+<4>[  235.686444] get_online_state=0x40
+<4>[  235.691999] reading the ac status 3860000
+<7>[  237.142674] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  237.151584] wlan0: authenticated
+<7>[  237.155507] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  237.165726] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  237.176464] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  237.262234] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  237.653824] CPU1: shutdown
+<4>[  238.261409] CPU1: Booted secondary processor
+<6>[  238.272343] Switched to NOHz mode on CPU #1
+<5>[  240.863500] CPU1: shutdown
+<4>[  242.064277] CPU1: Booted secondary processor
+<6>[  242.072318] Switched to NOHz mode on CPU #1
+<5>[  244.075407] CPU1: shutdown
+<4>[  245.081023] CPU1: Booted secondary processor
+<6>[  245.092317] Switched to NOHz mode on CPU #1
+<4>[  245.674323] battery_poll_timer_func
+<4>[  245.689776] reading the ac status 3860000
+<4>[  245.710763] get_online_state=0x40
+<4>[  245.718525] reading the ac status 3860000
+<5>[  247.083770] CPU1: shutdown
+<4>[  247.283542] CPU1: Booted secondary processor
+<6>[  247.292318] Switched to NOHz mode on CPU #1
+<7>[  247.545114] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  247.555063] wlan0: authenticated
+<7>[  247.642819] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  247.656703] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  247.666757] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  247.777854] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  249.283701] CPU1: shutdown
+<5>[  251.284372] CPU2: shutdown
+<5>[  253.283472] CPU3: shutdown
+<4>[  255.692302] battery_poll_timer_func
+<4>[  255.696963] reading the ac status 3860000
+<4>[  255.702639] get_online_state=0x40
+<4>[  255.706100] reading the ac status 3860000
+<7>[  257.985747] cpu-tegra: force EDP limit 1200000 kHz
+<4>[  257.990765] CPU1: Booted secondary processor
+<6>[  258.002302] Switched to NOHz mode on CPU #1
+<7>[  258.012869] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  258.021562] wlan0: authenticated
+<7>[  258.026199] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  258.042121] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  258.050144] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<4>[  258.082988] CPU2: Booted secondary processor
+<6>[  258.092303] Switched to NOHz mode on CPU #2
+<7>[  258.116631] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  260.083456] CPU2: shutdown
+<5>[  262.083561] CPU1: shutdown
+<7>[  262.385654] cpu-tegra: force EDP limit 1200000 kHz
+<4>[  262.390731] CPU1: Booted secondary processor
+<6>[  262.402302] Switched to NOHz mode on CPU #1
+<4>[  262.483838] CPU2: Booted secondary processor
+<6>[  262.492313] Switched to NOHz mode on CPU #2
+<4>[  262.586647] CPU3: Booted secondary processor
+<6>[  262.592309] Switched to NOHz mode on CPU #3
+<5>[  264.584090] CPU2: shutdown
+<4>[  265.712310] battery_poll_timer_func
+<4>[  265.717747] reading the ac status 3860000
+<4>[  265.723102] get_online_state=0x40
+<4>[  265.726606] reading the ac status 3860000
+<5>[  266.583530] CPU1: shutdown
+<7>[  268.312766] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  268.321082] wlan0: authenticated
+<7>[  268.324892] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  268.334963] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  268.342913] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  268.406883] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
+<5>[  268.783396] CPU3: shutdown
+<7>[  270.586557] cpu-tegra: force EDP limit 1200000 kHz
+<4>[  270.591573] CPU1: Booted secondary processor
+<6>[  270.602288] Switched to NOHz mode on CPU #1
+<5>[  272.583449] CPU1: shutdown
+<7>[  273.986523] cpu-tegra: force EDP limit 1200000 kHz
+<4>[  274.002493] CPU1: Booted secondary processor
+<6>[  274.012039] Switched to NOHz mode on CPU #1
+<4>[  275.732304] battery_poll_timer_func
+<4>[  275.736233] reading the ac status 3860000
+<4>[  275.741122] get_online_state=0x40
+<4>[  275.745252] reading the ac status 3860000
+<5>[  276.783387] CPU1: shutdown
+<7>[  278.642733] wlan0: authenticate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  278.651358] wlan0: authenticated
+<7>[  278.655214] wlan0: associate with 22:4c:e5:c6:4e:a0 (try 1)
+<7>[  278.666531] wlan0: RX AssocResp from 22:4c:e5:c6:4e:a0 (capab=0x431 status=12 aid=1)
+<7>[  278.675126] wlan0: 22:4c:e5:c6:4e:a0 denied association (code=12)
+<7>[  278.683704] cpu-tegra: force EDP limit 1200000 kHz
+<4>[  278.688719] CPU1: Booted secondary processor
+<6>[  278.700800] Switched to NOHz mode on CPU #1
+<7>[  278.716756] wlan0: deauthenticating from 22:4c:e5:c6:4e:a0 by local choice (reason=3)
